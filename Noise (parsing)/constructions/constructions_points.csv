@@ -1,0 +1,512 @@
+s_id,name,geom,status,func,url,address,end_year
+road-16,Эстакада на Волоколамском шоссе,POINT (37.433759 55.82441),operation,road,https://stroi.mos.ru/road/road/16,"Россия, Москва, Волоколамская эстакада",
+road-9,Развязка с Ленинским проспектом,POINT (37.459598685626 55.638849802872),operation,road,https://stroi.mos.ru/road/interchange/9,"Россия, Москва, Ленинский проспект",
+road-4,Развязка с Можайским шоссе,POINT (37.385670849316 55.713493249737),operation,road,https://stroi.mos.ru/road/interchange/4,"Россия, Москва, Можайское шоссе",
+construction-1584,Жилой дом,POINT (37.767237530122 55.702794045007),construction,house,https://stroi.mos.ru/construction/1584,"Зеленодольская, 41",2018
+construction-1907,Стартовые площадки,POINT (37.435134 55.715403),designed,renov-1719,https://stroi.mos.ru/construction/1907,"Можайский район, ул. Гжатская, вл.16 Присвоенный адрес: ул. Гжатская, д.16, к.1",2017
+construction-1887,Стартовые площадки,POINT (37.789905 55.807728),designed,renov-1719,https://stroi.mos.ru/construction/1887,"Северное Измайлово, ул. 5-я Парковая, д. 62, корп.1, корп.2, 5-я Парковая ул., д. 62 Б",2017
+construction-1926,Стартовые площадки,POINT (37.540163960696 55.874817713514),designed,renov-2023,https://stroi.mos.ru/construction/1926,"район Бескудниковский, кв. 8, 9, корп.1",2021
+construction-1868,Стартовая площадка реновации,POINT (37.561284 55.858867),designed,renov-1719,https://stroi.mos.ru/construction/1868,"Бескудниковский б-р, д. 3",2017
+construction-1863,Стартовая площадка реновации,POINT (37.556181 55.860469),designed,renov-1719,https://stroi.mos.ru/construction/1863,"Дмитровское ш., 74, кор. 1",2017
+construction-1914,Стартовые площадки,POINT (37.495188057094 55.672728344519),designed,renov-1719,https://stroi.mos.ru/construction/1914,"Проспект Вернадского, кв.34, 35, корп. 24",2019
+construction-2082,Стартовые площадки,POINT (37.185233555702 55.984177539439),designed,renov-2023,https://stroi.mos.ru/construction/2082,"мкр. 9, город Зеленоград,  корп.936",2021
+construction-1945,Стартовые площадки,POINT (37.58277271974 55.821845109645),designed,renov-2023,https://stroi.mos.ru/construction/1945,"район Бутырский, мкр. 78, корп. 66",2021
+construction-1899,Стартовые площадки,POINT (37.526038084794 55.647040945296),designed,renov-1719,https://stroi.mos.ru/construction/1899,"район Коньково, кв. 44-47, корп. 12",2019
+construction-1870,Стартовая площадка реновации,POINT (37.538287799722 55.894055739997),designed,renov-1719,https://stroi.mos.ru/construction/1870,"Долгопрудная ул., д. 12",2019
+construction-1921,Стартовые площадки,POINT (37.683367158193 55.769600993741),designed,renov-2023,https://stroi.mos.ru/construction/1921,"район Басманный, Посланников пер., вл. 18 - Старокирочный пер., вл. 5",2021
+construction-1919,Стартовые площадки,POINT (37.447947490389 55.857067614641),designed,renov-1719,https://stroi.mos.ru/construction/1919,"район Северное Тушино, ул. Свободы, вл. 67, корп. 5",2019
+construction-1882,Стартовые площадки,POINT (37.529272548322 55.942218838753),designed,renov-1719,https://stroi.mos.ru/construction/1882,"Дмитровское шоссе, вл. 167 , корп. 3А, (2 очередь)",2019
+construction-1894,Стартовые площадки,POINT (37.67401866096 55.681424198548),designed,renov-1719,https://stroi.mos.ru/construction/1894,"ул. Судостроительная, вл. 19",2019
+construction-1875,Стартовые площадки,POINT (37.676359746943 55.875144083456),designed,renov-1719,https://stroi.mos.ru/construction/1875,"ул. Летчика Бабушкина, вл. 39",2019
+construction-1933,Стартовые площадки,POINT (37.566061525981 55.843460333268),designed,renov-2023,https://stroi.mos.ru/construction/1933,"Дмитровское шоссе, вл. 55",2021
+construction-1902,Стартовые площадки,POINT (37.594302930805 55.68134263855),designed,renov-1719,https://stroi.mos.ru/construction/1902,"район Котловка, кв. 18, корп. 8",2019
+construction-1952,Стартовые площадки,POINT (37.615372895132 55.796797538397),designed,renov-2023,https://stroi.mos.ru/construction/1952,"Шереметьевская ул., вл. 5, корп.1",2021
+construction-1969,Стартовые площадки,POINT (37.825696356591 55.751642971152),designed,renov-2023,https://stroi.mos.ru/construction/1969,"район  Ивановское, мкр. 40-52, корп. 5",2021
+construction-1940,Стартовые площадки,POINT (37.514878171897 55.881958627413),designed,renov-2023,https://stroi.mos.ru/construction/1940,"Базовская ул., вл.15",2021
+construction-1964,Стартовые площадки,POINT (37.817999127569 55.798664666813),designed,renov-2023,https://stroi.mos.ru/construction/1964,"15-я Парковая ул., вл. 27",2021
+construction-1957,Стартовые площадки,POINT (37.621383530758 55.879216216529),designed,renov-2023,https://stroi.mos.ru/construction/1957,"ул. Молодцова, д. 33, корп. 1",2021
+construction-1988,Стартовые площадки,POINT (37.770608355851 55.709353711895),designed,renov-2023,https://stroi.mos.ru/construction/1988,"район Кузьминки, кв. 116, корп.1  (Шумилова ул., д. 4)",2021
+construction-1990,Стартовые площадки,POINT (37.786771271842 55.703440647006),designed,renov-2023,https://stroi.mos.ru/construction/1990,"Волгоградский проспект, вл. 163",2021
+construction-1983,Стартовые площадки,POINT (37.802119320113 55.80707475022),designed,renov-2023,https://stroi.mos.ru/construction/1983,"Константина Федина ул., вл. 13-19",2021
+construction-2094,Стартовые площадки,POINT (37.45039918108 55.677545387526),designed,renov-2023,https://stroi.mos.ru/construction/2094,"кв. 5, Б. Очаковская ул.",2021
+construction-2001,Стартовые площадки,POINT (37.739333080533 55.681311523926),designed,renov-2023,https://stroi.mos.ru/construction/2001,"мкр. А, Люблинская ул., вл. 111, корп. 2",2021
+construction-1971,Стартовые площадки,POINT (37.859609527022 55.716390741135),designed,renov-2023,https://stroi.mos.ru/construction/1971,"ул. Черное Озеро, вл. 2-8",2021
+construction-1995,Стартовые площадки,POINT (37.780182419857 55.69905632228),designed,renov-2023,https://stroi.mos.ru/construction/1995,"мкр. 118, ул. Юных Ленинцев, вл. 99",2021
+construction-1938,Стартовые площадки,POINT (37.495796352729 55.849315061503),designed,renov-2023,https://stroi.mos.ru/construction/1938,"Смольная ул., вл. 21",2021
+construction-1976,Стартовые площадки,POINT (37.772761683605 55.828159987086),designed,renov-2023,https://stroi.mos.ru/construction/1976,"Открытое шоссе, вл. 30",2021
+construction-2018,Стартовые площадки,POINT (37.616398703951 55.665549302139),designed,renov-2023,https://stroi.mos.ru/construction/2018,"Симферопольский проезд, вл. 7",2021
+construction-2006,Стартовые площадки,POINT (37.682992936878 55.704003407377),designed,renov-2023,https://stroi.mos.ru/construction/2006,"мкр. Д, ул. Петра Романова, д. 18",2021
+construction-2020,Стартовые площадки,POINT (37.6698 55.629713),designed,renov-2023,https://stroi.mos.ru/construction/2020,"Ереванская ул., напротив д. 10, корп. 1",2021
+construction-2013,Стартовые площадки,POINT (37.692271819156 55.683459959198),designed,renov-2023,https://stroi.mos.ru/construction/2013,"ул. Речников, д. 18-20",2021
+construction-2070,Стартовые площадки,POINT (37.478844157216 55.771530196156),designed,renov-2023,https://stroi.mos.ru/construction/2070,"Карамышевская набережная, вл.22,  корп. 2",2021
+construction-2068,Стартовые площадки,POINT (37.460327995057 55.779809039247),designed,renov-2023,https://stroi.mos.ru/construction/2068,"кв. 83, Генерала Глаголева ул., вл. 5, корп. 1",2021
+construction-2051,Стартовые площадки,POINT (37.560943248337 55.677377513772),designed,renov-2023,https://stroi.mos.ru/construction/2051,"кв. 20, 21, Профсоюзная ул., вл. 32",2021
+construction-2056,Стартовые площадки,POINT (37.553557330663 55.682145725721),designed,renov-2023,https://stroi.mos.ru/construction/2056,"ул. Архитектора Власова, вл. 2",2021
+construction-2032,Стартовые площадки,POINT (37.584648025872 55.660800311943),designed,renov-2023,https://stroi.mos.ru/construction/2032,"кв. 37, Болотниковская ул., вл. 43",2021
+construction-2049,Стартовые площадки,POINT (37.411050726534 55.73413656425),designed,renov-2023,https://stroi.mos.ru/construction/2049,"Молодогвардейская ул., д. 44",2021
+construction-2044,Стартовые площадки,POINT (37.406028861238 55.644851641453),designed,renov-2023,https://stroi.mos.ru/construction/2044,"Щорса ул., вл.15",2021
+construction-2037,Стартовые площадки,POINT (37.575419348591 55.649046206098),designed,renov-2023,https://stroi.mos.ru/construction/2037,"кв. 42, Керченская ул., вл. 30",2021
+road-11,Развязка с Профсоюзной улицей,POINT (37.491908075752 55.611316901386),construction,road,https://stroi.mos.ru/road/interchange/11,"Россия, Москва, Профсоюзная улица",
+road-23,Шоссе Энтузиастов,POINT (37.751612504299 55.758341210189),operation,road,https://stroi.mos.ru/road/trunk/23,,
+construction-2183,Стартовые площадки,POINT (37.689753 55.75046),designed,renov-2023,https://stroi.mos.ru/construction/2183,"мкр. Ограниченный ул. Золоторожский Вал, проездом завода Серп и Молот, Шоссе Энтузиастов, пр. 6626, уч. 14, 15",2021
+construction-2176,Стартовые площадки,POINT (37.534442246301 55.942632650046),designed,renov-2023,https://stroi.mos.ru/construction/2176,"Дмитровское шоссе, вл. 167, корп. 4А",2021
+construction-2188,Стартовые площадки,POINT (37.618093 55.702365),designed,renov-2023,https://stroi.mos.ru/construction/2188,"между М. Тульская ул., д. 55, корп. 4 и Б. Тульская ул., д. 54, корп. 3",2021
+construction-2190,Стартовые площадки,POINT (37.690938 55.6816),designed,renov-2023,https://stroi.mos.ru/construction/2190,"Речников ул., вл. 22",2021
+construction-2195,Стартовые площадки,POINT (37.457005 55.836326),designed,renov-2023,https://stroi.mos.ru/construction/2195,"Лодочная, вл. 11",2021
+construction-2107,ТПУ «Битцевский парк»,POINT (37.55809 55.60036),designed,tpu,https://stroi.mos.ru/construction/2107,Новоясеневский проспект,
+construction-2114,ТПУ «Кленовый бульвар»,POINT (37.679604 55.674254),designed,tpu,https://stroi.mos.ru/construction/2114,у нового входа в парк «Коломенское» со стороны Коломенской улицы,2022
+construction-2126,ТПУ «Метровокзал Сосенки»,POINT (37.434189 55.548341),designed,tpu,https://stroi.mos.ru/construction/2126,Периферийная зона,2020
+road-35,Развязка с Липецкой улицей,POINT (37.687997862549 55.576542808409),construction,road,https://stroi.mos.ru/road/interchange/35,"Россия, Москва, Липецкая улица",
+construction-2222,"Северное Медведково, проезд Шокальского, вл. 27, к. 2",POINT (37.644463216919 55.881144689261),operation,renov-bld,https://stroi.mos.ru/construction/2222,,2017
+construction-2227,"Проспект Вернадского, кв. 34-35, к. 27",POINT (37.494357882286 55.673156143628),operation,renov-bld,https://stroi.mos.ru/construction/2227,,2017
+construction-2215,"Бескудниковский район, мкр. 5, корп. 9",POINT (37.561287973787 55.858890875322),operation,renov-bld,https://stroi.mos.ru/construction/2215,,2017
+road-42,Проезд Шокальского,POINT (37.620393 55.75396),construction,road,https://stroi.mos.ru/road/regional/42,,
+construction-2246,Кинотеатр «Байконур»,POINT (37.605122 55.864849),designed,cinema,https://stroi.mos.ru/construction/2246,"Улица Декабристов, д. 17",2020
+construction-2253,Кинотеатр «Планета»,POINT (37.473375 55.707887),designed,cinema,https://stroi.mos.ru/construction/2253,"Улица Нежинская, д. 11",2020
+construction-2258,Кинотеатр «Родина»,POINT (37.717869 55.781565),designed,cinema,https://stroi.mos.ru/construction/2258,"Семеновская площадь, д. 5",2020
+construction-2260,Кинотеатр «София»,POINT (37.800721 55.803651),designed,cinema,https://stroi.mos.ru/construction/2260,пересечение Сиреневого бульвара с 9-й Парковой улицей,2020
+road-28,Рублевское шоссе,POINT (37.417437 55.747191),operation,road,https://stroi.mos.ru/road/road/28,,
+metro_station-92,"""Столбово""",POINT (37.461328472733 55.573916319347),designed,metro,https://stroi.mos.ru/metro/station/92,"Россия, Москва, поселение Сосенское, деревня Столбово",
+metro_station-47,"""Спартак""",POINT (37.434801 55.817234),operation,metro,https://stroi.mos.ru/metro/station/47,,
+metro_station-16,"""Зябликово""",POINT (37.745205 55.612329),operation,metro,https://stroi.mos.ru/metro/station/16,"Россия, Москва, метро Зябликово",
+metro_station-30,"""Новокосино""",POINT (37.864052 55.745113),operation,metro,https://stroi.mos.ru/metro/station/30,,
+metro_station-61,"""Шипиловская""",POINT (37.743723 55.620982),operation,metro,https://stroi.mos.ru/metro/station/61,,
+metro_station-35,"""Парк Победы""",POINT (37.516925 55.736164),operation,metro,https://stroi.mos.ru/metro/station/35,,
+metro_station-4,"""Битцевский парк""",POINT (37.555328 55.601188),operation,metro,https://stroi.mos.ru/metro/station/4,,
+road-30,Варшавское шоссе,POINT (37.607951 55.608114),operation,road,https://stroi.mos.ru/road/trunk/30,,
+construction-2169,ТПУ Шелепиха,POINT (37.524804 55.756063),designed,tpu,https://stroi.mos.ru/construction/2169,"Москва, территория ограниченная Шмитовским проездом, 3-й Магистральной ул., Шелепихинским шоссе, в районе строящейся станции метро ""Шелепиха""",2022
+construction-2272,Стартовые площадки,POINT (37.538632 55.86896),designed,renov-2023,https://stroi.mos.ru/construction/2272,"Бескудниковский, кв. 8, 9, к. 24",2021
+construction-2277,Стартовые площадки,POINT (37.875318 55.818776),designed,renov-2023,https://stroi.mos.ru/construction/2277,"пос. Восточный, уч. 1, 2",2021
+construction-2239,Кинотеатр «Керчь»,POINT (37.664114 55.595552),designed,cinema,https://stroi.mos.ru/construction/2239,"ул. Бирюлевская, д. 17",2020
+construction-2335,Храм в честь преподобного Сергия Радонежского,POINT (37.8328 55.823975),designed,religion,https://stroi.mos.ru/construction/2335,"ул. Красноярская, вл. 11",
+construction-2323,Храм в честь преподобного Серафима Саровского,POINT (37.561095 55.873258),construction,religion,https://stroi.mos.ru/construction/2323,"ул. Дубнинская, вл. 24",
+construction-2328,Храм в честь иконы Божией Матери «Отрада и Утешение»,POINT (37.598021 55.653465),construction,religion,https://stroi.mos.ru/construction/2328,на пересечении улиц Каховка и Азовская,
+construction-2265,Кинотеатр «Рига»,POINT (37.583158 55.84535),designed,cinema,https://stroi.mos.ru/construction/2265,"Ботаническая улица, д. 39",2020
+metro_station-66,"""Давыдково""",POINT (37.452772347221 55.715518457605),designed,metro,https://stroi.mos.ru/metro/station/66,,
+metro_station-28,"""Нижегородская""",POINT (37.725516383842 55.731514823915),construction,metro,https://stroi.mos.ru/metro/station/28,"Россия, Москва, Рязанский проспект",
+metro_station-80,"""Нижегородская""",POINT (37.72811 55.732028),construction,metro,https://stroi.mos.ru/metro/station/80,"Россия, Москва, Рязанский проспект",
+metro_station-85,"""Внуково""",POINT (37.2924 55.608475),designed,metro,https://stroi.mos.ru/metro/station/85,,
+metro_station-54,"""Улица Новаторов""",POINT (37.520344892119 55.670812515286),designed,metro,https://stroi.mos.ru/metro/station/54,"Россия, Москва, улица Новаторов",
+construction-2152,ТПУ «Столбово»,POINT (37.465892 55.57833),designed,tpu,https://stroi.mos.ru/construction/2152,,2020
+metro_station-23,"""Ломоносовский проспект""",POINT (37.514313653557 55.706333387255),operation,metro,https://stroi.mos.ru/metro/station/23,"Россия, Москва, Мичуринский проспект",
+metro_station-42,"""Румянцево""",POINT (37.441395 55.633028),operation,metro,https://stroi.mos.ru/metro/station/42,"Россия, Москва, Сокольническая линия, метро Румянцево",
+metro_station-11,"""Говорово""",POINT (37.413596176977 55.659677108274),construction,metro,https://stroi.mos.ru/metro/station/11,"Россия, Москва, Боровское шоссе",
+construction-2241,Кинотеатр «Орбита»,POINT (37.671633 55.676504),designed,cinema,https://stroi.mos.ru/construction/2241,пересечение проспекта Андропова и ул. Новинки,2020
+metro_station-73,"""Стромынка""",POINT (37.67899 55.790443),designed,metro,https://stroi.mos.ru/metro/station/73,"Россия, Москва, Сокольническая площадь",
+construction-2121,ТПУ «Лефортово»,POINT (37.706667 55.765514),designed,tpu,https://stroi.mos.ru/construction/2121,ул. Наличная,2020
+construction-2157,ТПУ «Тропарево»,POINT (37.473800210976 55.645958679465),designed,tpu,https://stroi.mos.ru/construction/2157,,2022
+construction-2164,ТПУ «Фонвизинская»,POINT (37.592033 55.82135),designed,tpu,https://stroi.mos.ru/construction/2164,ул. Милашенкова,2020
+construction-2171,ТПУ «Хорошевская»,POINT (37.522666454315 55.777774408342),designed,tpu,https://stroi.mos.ru/construction/2171,расположен на пересечении улиц Куусинена и 4-й Магистральной с Хорошевским шоссе,2022
+construction-2138,ТПУ Петровско-Разумовская,POINT (37.573762 55.835392),designed,tpu,https://stroi.mos.ru/construction/2138,расположится у одноименной станции метро Люблинско-Дмитровской линии,2022
+construction-2119,ТПУ «Лермонтовский проспект» (Косино),POINT (37.854817 55.701915),designed,tpu,https://stroi.mos.ru/construction/2119,рядом со станцией метро «Лермонтовский проспект»,
+metro_station-78,"""Столбово""",POINT (37.465892 55.57833),designed,metro,https://stroi.mos.ru/metro/station/78,"Россия, Москва, поселение Сосенское",
+construction-2234,Кинотеатр «Ангара»,POINT (37.612389 55.651379),designed,cinema,https://stroi.mos.ru/construction/2234,"Чонгарский бульвар, д. 7",2019
+construction-2145,ТПУ «Рязанская»,POINT (37.727162 55.732558),designed,tpu,https://stroi.mos.ru/construction/2145,,2019
+road-5,Молодогвардейская развязка,POINT (37.375214378368 55.731616703309),operation,road,https://stroi.mos.ru/road/interchange/5,"Россия, Москва, Молодогвардейская улица",
+road-12,Развязка с Ленинградским шоссе,POINT (37.445289800426 55.881412583299),operation,road,https://stroi.mos.ru/road/interchange/12,"Россия, Москва, Ленинградское шоссе",
+construction-1597,Жилой дом,POINT (37.444609365466 55.844014955532),construction,house,https://stroi.mos.ru/construction/1597,"ул. Фабрициуса, вл. 18, стр. 1",2017
+construction-1910,Стартовые площадки,POINT (37.506047 55.670904),designed,renov-1719,https://stroi.mos.ru/construction/1910,"Проспект Вернадского, кв. 32, 33, корп. 12А, проспект Вернадского, д.69",2017
+construction-1927,Стартовые площадки,POINT (37.543300813902 55.87026259518),designed,renov-2023,https://stroi.mos.ru/construction/1927,"район Бескудниковский, кв. 8, 9, корп.20",2021
+construction-1864,Стартовая площадка реновации,POINT (37.560404 55.862424),designed,renov-1719,https://stroi.mos.ru/construction/1864,"Бескудниковский бульвар, д. 11, к. 1",2017
+construction-1869,Стартовая площадка реновации,POINT (37.559847 55.858529),designed,renov-1719,https://stroi.mos.ru/construction/1869,"Дмитровское шоссе, дом 68",2017
+construction-1977,Стартовые площадки,POINT (37.763842233805 55.744012436217),designed,renov-2023,https://stroi.mos.ru/construction/1977,"Плеханова ул., вл. 18",2021
+construction-1888,Стартовые площадки,POINT (37.822921182873 55.811012947478),designed,renov-1719,https://stroi.mos.ru/construction/1888,"Северное Измайлово, мкр. 80 (Щелковское шоссе между д. 90 и д. 92, корп. 2)",2019
+construction-1883,Стартовые площадки,POINT (37.529524201378 55.939366767233),designed,renov-1719,https://stroi.mos.ru/construction/1883,"Дмитровское шоссе, вл. 167, корп. 9А (2 очередь)",2019
+construction-1915,Стартовые площадки,POINT (37.494910740114 55.673450205779),designed,renov-1719,https://stroi.mos.ru/construction/1915,"Проспект Вернадского, кв.34, 35, корп. 26",2019
+construction-1876,Стартовые площадки,POINT (37.67749 55.876026),designed,renov-1719,https://stroi.mos.ru/construction/1876,"ул. Летчика Бабушкина, вл. 41",2019
+construction-1871,Стартовая площадка реновации,POINT (37.539401324575 55.893337867585),designed,renov-1719,https://stroi.mos.ru/construction/1871,"Долгопрудная ул., д. 7",2019
+construction-1908,Стартовые площадки,POINT (37.458140721375 55.7054311558),designed,renov-1719,https://stroi.mos.ru/construction/1908,"район Очаково-Матвеевское, Аминьевское шоссе (между Аминьевским шоссе и Нежинской ул.)",2019
+construction-1895,Стартовые площадки,POINT (37.667546 55.679494),designed,renov-1719,https://stroi.mos.ru/construction/1895,"ул. Судостроительная, вл. 5 (3), корп. 1",2019
+construction-1946,Стартовые площадки,POINT (37.585632526883 55.812657807263),designed,renov-2023,https://stroi.mos.ru/construction/1946,"ул. Руставели, вл. 3, корп. 4",2021
+construction-1934,Стартовые площадки,POINT (37.511770904237 55.854850075507),designed,renov-2023,https://stroi.mos.ru/construction/1934,"Онежская ул., вл. 35, корп. 6",2021
+construction-1903,Стартовые площадки,POINT (37.609376060145 55.679081568311),designed,renov-1719,https://stroi.mos.ru/construction/1903,"Нагорная ул., вл. 13, корп. 2,  3",2019
+construction-1941,Стартовые площадки,POINT (37.514628253212 55.869912098641),designed,renov-2023,https://stroi.mos.ru/construction/1941,"ул. Талдомская, вл.1",2021
+construction-1939,Стартовые площадки,POINT (37.521189218177 55.87849575553),designed,renov-2023,https://stroi.mos.ru/construction/1939,"Ангарская ул., д. 33",2021
+construction-1953,Стартовые площадки,POINT (37.615366949321 55.796777375834),designed,renov-2023,https://stroi.mos.ru/construction/1953,"Шереметьевская ул., вл. 13, корп.1",2021
+construction-1991,Стартовые площадки,POINT (37.765619206806 55.712228279158),designed,renov-2023,https://stroi.mos.ru/construction/1991,"ул. Жигулевская, вл. 3",2021
+construction-1960,Стартовые площадки,POINT (37.695977929322 55.815696047515),designed,renov-2023,https://stroi.mos.ru/construction/1960,"Миллионная ул., вл .3",2021
+construction-1996,Стартовые площадки,POINT (37.712126 55.763436),designed,renov-2023,https://stroi.mos.ru/construction/1996,"район Лефортово, кв. 3, корп. 6",2021
+construction-1965,Стартовые площадки,POINT (37.827840397206 55.79984633157),designed,renov-2023,https://stroi.mos.ru/construction/1965,"16-я Парковая ул., вл. 12",2021
+construction-1972,Стартовые площадки,POINT (37.857236659757 55.714207699464),designed,renov-2023,https://stroi.mos.ru/construction/1972,"Оренбургская ул., д. 3",2021
+construction-1958,Стартовые площадки,POINT (37.652974930024 55.850832525005),designed,renov-2023,https://stroi.mos.ru/construction/1958,"проезд Нансена, вл. 8",2021
+construction-1890,Стартовые площадки,POINT (37.737031021742 55.73964445572),designed,renov-1719,https://stroi.mos.ru/construction/1890,"шоссе Фрезер, д. 7/2",2019
+construction-2019,Стартовые площадки,POINT (37.651940043661 55.635822517345),designed,renov-2023,https://stroi.mos.ru/construction/2019,"ул. Бехтерева, вл.3, з/у1 (мкр. 4, корп. 402)",2021
+construction-1989,Стартовые площадки,POINT (37.77807701999 55.706436498677),designed,renov-2023,https://stroi.mos.ru/construction/1989,"кв. 116, корп. 2 (Шумилова ул., д. 16, корп. 2)",2021
+construction-2021,Стартовые площадки,POINT (37.653039663406 55.628413437579),designed,renov-2023,https://stroi.mos.ru/construction/2021,"Кавказский бульвар, вл. 40-42",2021
+construction-2014,Стартовые площадки,POINT (37.650864 55.68704),designed,renov-2023,https://stroi.mos.ru/construction/2014,"Проектируемый проезд 4062, д. 8",2021
+construction-2007,Стартовые площадки,POINT (37.674097917003 55.580543585721),designed,renov-2023,https://stroi.mos.ru/construction/2007,"мкр. Загорье, напротив вл.2",2021
+construction-2026,Стартовые площадки,POINT (37.601826715413 55.591831090554),designed,renov-2023,https://stroi.mos.ru/construction/2026,"Чертаново-Южное, мкр.26, корп. 81-82",2021
+construction-2002,Стартовые площадки,POINT (37.75046 55.667498),designed,renov-2023,https://stroi.mos.ru/construction/2002,"мкр. Ж, ул. Верхние поля, д.19, корп. 2",2021
+construction-2064,Стартовые площадки,POINT (37.379559655373 55.851486355585),designed,renov-2023,https://stroi.mos.ru/construction/2064,"район Новобратцево, Парковая ул., вл. 31 (напротив)",2021
+construction-2040,Стартовые площадки,POINT (37.569753686567 55.652977677228),designed,renov-2023,https://stroi.mos.ru/construction/2040,"кв. 40, Севастопольский проспект, вл. 79",2021
+construction-2038,Стартовые площадки,POINT (37.575800617446 55.64927385184),designed,renov-2023,https://stroi.mos.ru/construction/2038,"кв. 42, Керченская ул., вл. 26",2021
+construction-2033,Стартовые площадки,POINT (37.592879847745 55.65597516422),designed,renov-2023,https://stroi.mos.ru/construction/2033,"район Зюзино, кв. 14, корп. 3",2021
+construction-2095,Стартовые площадки,POINT (37.758849547924 55.700009377731),designed,renov-2023,https://stroi.mos.ru/construction/2095,"мкр. 113, ул. Юных Ленинцев, вл. 42",2021
+construction-2069,Стартовые площадки,POINT (37.489485545528 55.779695075337),designed,renov-2023,https://stroi.mos.ru/construction/2069,"ул. Демьяна Бедного, вл. 22",2021
+construction-2071,Стартовые площадки,POINT (37.496042071575 55.774099416929),designed,renov-2023,https://stroi.mos.ru/construction/2071,"ул. Мневники, вл. 10, корп. 1",2021
+construction-2083,Стартовые площадки,POINT (37.194033673611 55.412782392563),designed,renov-2023,https://stroi.mos.ru/construction/2083,"поселок Шишкин лес, вблизи д. 9",2021
+road-29,Ленинградское шоссе,POINT (37.442311 55.883626),operation,road,https://stroi.mos.ru/road/trunk/29,,
+road-31,Каширское шоссе,POINT (37.683634 55.641061),operation,road,https://stroi.mos.ru/road/trunk/31,,
+construction-2184,Стартовые площадки,POINT (37.762575 55.681935),designed,renov-2023,https://stroi.mos.ru/construction/2184,"19 район, кв. Г, Ставропольская ул., вл. 23-1",2020
+construction-2189,Стартовые площадки,POINT (37.706613 55.684183),designed,renov-2023,https://stroi.mos.ru/construction/2189,"Коломенская ул., напротив вл. 3",2021
+construction-2172,Стартовые площадки,POINT (37.696661017197 55.87753228118),designed,renov-2023,https://stroi.mos.ru/construction/2172,"Норильская ул., д. 6  (напротив)",2021
+construction-2191,Стартовые площадки,POINT (37.617678 55.645944),designed,renov-2023,https://stroi.mos.ru/construction/2191,"Варшавское шоссе, вл. 98-100",2021
+construction-2196,Стартовые площадки,POINT (37.43864 55.838055),designed,renov-2023,https://stroi.mos.ru/construction/2196,"Южное Тушино, мкр. 11, корп. 1",2021
+construction-2153,ТПУ «Терехово»,POINT (37.457061 55.753286),designed,tpu,https://stroi.mos.ru/construction/2153,станция метро «Терехово»,2024
+construction-2115,ТПУ «Коммунарка»,POINT (37.475495 55.570395),designed,tpu,https://stroi.mos.ru/construction/2115,рядом с перспективной станций метро «Коммунарка»,2020
+construction-2177,Стартовые площадки,POINT (37.53165961012 55.943266826615),designed,renov-2023,https://stroi.mos.ru/construction/2177,"Дмитровское шоссе, вл. 167, корп. 8А",2021
+construction-2160,ТПУ « Улица Академика Опарина-2»,POINT (37.50834458791 55.649617894332),designed,tpu,https://stroi.mos.ru/construction/2160,,2020
+road-24,Щелковское шоссе,POINT (37.795834 55.810051),construction,road,https://stroi.mos.ru/road/trunk/24,Щелковское шоссе,
+construction-2223,"Северное Медведково, ул. Полярная, д. 22",POINT (37.638008885914 55.879674219035),operation,renov-bld,https://stroi.mos.ru/construction/2223,,2017
+construction-2216,"Бескудниковский район, мкр. 5, корп. 8",POINT (37.561333897562 55.859700049908),operation,renov-bld,https://stroi.mos.ru/construction/2216,,2017
+road-43,Улица Ротерта,POINT (37.620393 55.75396),construction,road,https://stroi.mos.ru/road/regional/43,,
+road-36,Развязка с Бесединским шоссе,POINT (37.782247632385 55.617799895271),construction,road,https://stroi.mos.ru/road/interchange/36,"Россия, Москва, Бесединское шоссе",
+construction-2052,Стартовые площадки,POINT (37.570766583706 55.663691422042),designed,renov-2023,https://stroi.mos.ru/construction/2052,"район Черемушки, кв.32А, уч. 1, 2",2021
+construction-2228,Жилой дом,POINT (37.516021600182 55.6789609943),construction,house,https://stroi.mos.ru/construction/2228,"Москва, ЮЗАО, район Ломоносовский, ул. Кравченко, вл. 16",
+construction-2242,Кинотеатр «Баку»,POINT (37.52828 55.806322),designed,cinema,https://stroi.mos.ru/construction/2242,"ул. Усиевича, д. 12",2020
+metro_station-12,"""Деловой центр""",POINT (37.542671 55.748843),operation,metro,https://stroi.mos.ru/metro/station/12,,
+construction-2158,ТПУ « Ул. Генерала Тюленева»,POINT (37.485572 55.62605),designed,tpu,https://stroi.mos.ru/construction/2158,расположится на пересечении улиц Генерала Тюленева и Теплый стан,2019
+construction-2273,Стартовые площадки,POINT (37.541365 55.867876),designed,renov-2023,https://stroi.mos.ru/construction/2273,"Бескудниковский, кв. 8, 9, к. 32",2021
+construction-2127,ТПУ «Мичуринский проспект»,POINT (37.484445 55.68966),designed,tpu,https://stroi.mos.ru/construction/2127,на базе будущей станции метрополитена «Мичуринский проспект» Калининско-Солнцевской линии и Третьего пересадочного контура,2020
+construction-2108,ТПУ «Боровское шоссе»,POINT (37.371163 55.648852),designed,tpu,https://stroi.mos.ru/construction/2108,Боровское шоссе на пересечении с Приречной ул.,
+road-50,Дорога от Никулинского проезда до Никулинской улицы,POINT (37.620393 55.75396),construction,road,https://stroi.mos.ru/road/regional/50,,
+construction-2324,Храм в честь святого равноапостольного великого князя Владимира,POINT (37.796723 55.743781),construction,religion,https://stroi.mos.ru/construction/2324,"ул. Перовская, вл. 64",
+construction-2329,Храм в честь святого благоверного князя Дмитрия Донского,POINT (37.5705 55.562305),construction,religion,https://stroi.mos.ru/construction/2329,пересечение улицы Академика Глушко и бульвара Дмитрия Донского,
+metro_station-48,"""Стахановская""",POINT (37.760212242926 55.725678447706),construction,metro,https://stroi.mos.ru/metro/station/48,"Россия, Москва, Стахановская улица",
+metro_station-67,"""Мичуринский проспект""",POINT (37.484570139881 55.689622123831),designed,metro,https://stroi.mos.ru/metro/station/67,,
+metro_station-36,"""Петровский парк""",POINT (37.559051204338 55.789378415599),operation,metro,https://stroi.mos.ru/metro/station/36,"Россия, Москва, Московская аллея",
+metro_station-81,"""Лианозово""",POINT (37.567345 55.901564),designed,metro,https://stroi.mos.ru/metro/station/81,,
+construction-2165,ТПУ «Ховрино»,POINT (37.480641326348 55.879127202561),designed,tpu,https://stroi.mos.ru/construction/2165,ул. Дыбенко,2022
+construction-2134,ТПУ «Новокосино»,POINT (37.861534 55.745024),construction,tpu,https://stroi.mos.ru/construction/2134,появится на границе московского района Новокосино и города Реутов Московской области,2018
+construction-2146,ТПУ «Савёловская»,POINT (37.589968 55.795636),designed,tpu,https://stroi.mos.ru/construction/2146,в составе округа,2022
+metro_station-74,"""Текстильщики""",POINT (37.732593 55.708831),designed,metro,https://stroi.mos.ru/metro/station/74,"Россия, Москва, метро Текстильщики",
+metro_station-93,"""Улица Строителей""",POINT (37.534757 55.687213),designed,metro,https://stroi.mos.ru/metro/station/93,"Россия, Москва, улица Строителей",
+metro_station-86,"""Улица Новаторов""",POINT (37.525459 55.662791),designed,metro,https://stroi.mos.ru/metro/station/86,"Россия, Москва, улица Новаторов",
+metro_station-24,"""Лухмановская""",POINT (37.897193110472 55.709145373414),construction,metro,https://stroi.mos.ru/metro/station/24,"Россия, Москва, Лухмановская улица",
+metro_station-43,"""Саларьево""",POINT (37.424048 55.621811),operation,metro,https://stroi.mos.ru/metro/station/43,"Россия, Москва, Сокольническая линия, метро Саларьево",
+metro_station-50,"""Технопарк""",POINT (37.66442 55.693931),operation,metro,https://stroi.mos.ru/metro/station/50,"Россия, Москва, Замоскворецкая линия, метро Технопарк",
+metro_station-55,"""Фонвизинская""",POINT (37.589272605223 55.821545862059),operation,metro,https://stroi.mos.ru/metro/station/55,"Россия, Москва, улица Фонвизина",
+construction-2230,Кинотеатр «Прага»,POINT (37.57802 55.792696),designed,cinema,https://stroi.mos.ru/construction/2230,"Улица Нижняя Масловка, д. 10",2020
+construction-2254,Кинотеатр «Солнцево»,POINT (37.393317 55.652791),designed,cinema,https://stroi.mos.ru/construction/2254,"Улица Богданова, д. 19",2020
+construction-2235,Кинотеатр «Эльбрус»,POINT (37.670672 55.630924),designed,cinema,https://stroi.mos.ru/construction/2235,"Кавказский бульвар,  д. 17",2020
+construction-2261,Кинотеатр «Янтарь»,POINT (37.729943 55.809095),designed,cinema,https://stroi.mos.ru/construction/2261,"Открытое шоссе, д. 4",2020
+construction-2259,Кинотеатр «Саяны»,POINT (37.832701 55.768309),designed,cinema,https://stroi.mos.ru/construction/2259,"ул. Саянская, д. 9",2020
+road-48,Новые дороги от Боровского до Минского шоссе,POINT (37.620393 55.75396),designed,road,https://stroi.mos.ru/road/regional/48,,
+metro_station-5,"""Борисово""",POINT (37.743831 55.633587),operation,metro,https://stroi.mos.ru/metro/station/5,,
+metro_station-62,"""Юго-Восточная""",POINT (37.823916316907 55.701829183869),construction,metro,https://stroi.mos.ru/metro/station/62,"Россия, Москва, Самаркандский бульвар",
+construction-2278,Стартовые площадки,POINT (37.613988 55.648631),designed,renov-2023,https://stroi.mos.ru/construction/2278,"ул. Артековская, д. 9 (АТС)",2021
+construction-2266,Кинотеатр «Волгоград»,POINT (37.819262 55.70631),designed,cinema,https://stroi.mos.ru/construction/2266,"ул. Ферганская,  д. 17",2020
+construction-2247,Кинотеатр «Марс»,POINT (37.582331 55.878662),designed,cinema,https://stroi.mos.ru/construction/2247,"Улица Инженерная, д. 1",2020
+construction-2139,ТПУ «Печатники»,POINT (37.731183 55.701279),designed,tpu,https://stroi.mos.ru/construction/2139,метро «Печатники»,
+construction-2336,Храм в честь святого благоверного князя Андрея Боголюбского,POINT (37.746219 55.709047),construction,religion,https://stroi.mos.ru/construction/2336,пересечение Волгоградского проспекта с Волжским бульваром и ул. Окская,2018
+construction-2103,ТПУ «Авиамоторная»,POINT (37.716795 55.754069),construction,tpu,https://stroi.mos.ru/construction/2103,появится на базе одноименной станции метро Третьего пересадочного контура (ул. Авиамоторная),2019
+metro_station-31,"""Новопеределкино""",POINT (37.353232525823 55.638377371132),construction,metro,https://stroi.mos.ru/metro/station/31,"Россия, Москва, Боровское шоссе",
+metro_station-17,"""Косино""",POINT (37.843114075253 55.706666201659),construction,metro,https://stroi.mos.ru/metro/station/17,"Россия, Москва, Лермонтовский проспект",
+construction-2122,ТПУ «Лухмановская»,POINT (37.843092744044 55.706500795292),designed,tpu,https://stroi.mos.ru/construction/2122,появится рядом со станцией метро «Лухмановская» Кожуховской линии,2025
+metro_station-79,"""Нагатинский затон""",POINT (37.708787 55.6854),designed,metro,https://stroi.mos.ru/metro/station/79,"Россия, Москва, Коломенская улица",
+road-17,Северо-Западная хорда,POINT (37.514086 55.809474),construction,road,https://stroi.mos.ru/road/road/17,"Россия, Москва, Алабяно-Балтийский тоннель",
+metro_station-29,"""Нижняя Масловка""",POINT (37.58376 55.80019),construction,metro,https://stroi.mos.ru/metro/station/29,"Россия, Москва, Бутырская улица",
+road-13,Развязка с Рязанским проспектом,POINT (37.834961240486 55.707969702023),operation,road,https://stroi.mos.ru/road/interchange/13,"Россия, Москва, Рязанский проспект",
+road-6,Развязка с улицей Подольских Курсантов,POINT (37.641931105992 55.573138811901),operation,road,https://stroi.mos.ru/road/interchange/6,"Россия, Москва, улица Подольских Курсантов",
+construction-1911,Стартовые площадки,POINT (37.510318490881 55.668994669371),designed,renov-1719,https://stroi.mos.ru/construction/1911,"Проспект Вернадского, кв.32, 33, корп.35",2019
+construction-1865,Стартовая площадка реновации,POINT (37.559523 55.863469),designed,renov-1719,https://stroi.mos.ru/construction/1865,"Бескудниковский бульвар, д. 13",2017
+construction-1909,Стартовые площадки,POINT (37.505687 55.671605),designed,renov-1719,https://stroi.mos.ru/construction/1909,"Проспект Вернадского, кв. 32, 33, корп. 12, Проспект Вернадского, д.61, к.3",2019
+construction-1916,Стартовые площадки,POINT (37.494357882286 55.673156143628),designed,renov-1719,https://stroi.mos.ru/construction/1916,"Проспект Вернадского, кв.34, 35, корп. 27",2019
+construction-1896,Стартовые площадки,POINT (37.58241323892 55.68661152462),designed,renov-1719,https://stroi.mos.ru/construction/1896,"район Академический, кв. 12, корп.10",2019
+construction-1904,Стартовые площадки,POINT (37.565364395825 55.542964976106),designed,renov-1719,https://stroi.mos.ru/construction/1904,"район  Южное Бутово, кв. 1, корп. 13",2019
+construction-1872,Стартовая площадка реновации,POINT (37.523990403148 55.834710175689),designed,renov-1719,https://stroi.mos.ru/construction/1872,"Соболевский проезд, д. 20 Б",2019
+construction-1877,Стартовые площадки,POINT (37.678044310568 55.862384419275),designed,renov-1719,https://stroi.mos.ru/construction/1877,"ул. Коминтерна, вл. 12",2019
+construction-1891,Стартовые площадки,POINT (37.737929366498 55.695563205014),designed,renov-1719,https://stroi.mos.ru/construction/1891,"Текстильщики, кв. 110, 111, Артюхиной ул., вл. 24 А",2019
+construction-1935,Стартовые площадки,POINT (37.514366460307 55.85359004494),designed,renov-2023,https://stroi.mos.ru/construction/1935,"Кронштадтский бульвар, вл. 55",2021
+construction-1930,Стартовые площадки,POINT (37.510290827349 55.856616550343),designed,renov-2023,https://stroi.mos.ru/construction/1930,"Флотская ул., вл. 68, корп. 1",2021
+construction-1947,Стартовые площадки,POINT (37.685713689606 55.872802047598),designed,renov-2023,https://stroi.mos.ru/construction/1947,"ул. Изумрудная, вл. 26А",2021
+construction-1959,Стартовые площадки,POINT (37.64140873359 55.87195763979),designed,renov-2023,https://stroi.mos.ru/construction/1959,"проезд Дежнева, д. 12, корп. 1",2021
+construction-1928,Стартовые площадки,POINT (37.505550920119 55.832774174878),designed,renov-2023,https://stroi.mos.ru/construction/1928,"Нарвская ул., вл. 5",2021
+construction-1954,Стартовые площадки,POINT (37.6178876523 55.799709883634),designed,renov-2023,https://stroi.mos.ru/construction/1954,ТПУ «Марьина Роща»,2021
+construction-1961,Стартовые площадки,POINT (37.731373 55.812896),designed,renov-2023,https://stroi.mos.ru/construction/1961,"район Богородское, мкр.8Б, корп.4",2021
+construction-1992,Стартовые площадки,POINT (37.769847995816 55.711915184689),designed,renov-2023,https://stroi.mos.ru/construction/1992,"Зеленодольская, вл. 28, корп. 4",2021
+construction-1973,Стартовые площадки,POINT (37.871477677314 55.707274925105),designed,renov-2023,https://stroi.mos.ru/construction/1973,"Каскадная ул., вл. 21, участок 1",2021
+construction-1997,Стартовые площадки,POINT (37.701706 55.745435),designed,renov-2023,https://stroi.mos.ru/construction/1997,"Шепелюгинская ул., вл.16",2021
+construction-1966,Стартовые площадки,POINT (37.795635629013 55.810878392998),designed,renov-2023,https://stroi.mos.ru/construction/1966,"Щелковское шоссе, д. 71, корп.1 и д.73",2021
+construction-1985,Стартовые площадки,POINT (37.803961389008 55.710879052492),designed,renov-2023,https://stroi.mos.ru/construction/1985,"Ферганская ул., вл.5",2021
+construction-1980,Стартовые площадки,POINT (37.789005 55.752183),designed,renov-2023,https://stroi.mos.ru/construction/1980,"Зеленый проспект, вл. 27-29",2021
+construction-1978,Стартовые площадки,POINT (37.765077205906 55.742135298283),designed,renov-2023,https://stroi.mos.ru/construction/1978,"Плеханова ул., вл. 22",2021
+construction-2010,Стартовые площадки,POINT (37.649653044931 55.595979447053),designed,renov-2023,https://stroi.mos.ru/construction/2010,"Харьковский проезд, вблизи вл.1",2021
+construction-2008,Стартовые площадки,POINT (37.659091608606 55.577194432416),designed,renov-2023,https://stroi.mos.ru/construction/2008,"Булатниковский проезд, д.16А",2021
+construction-2022,Стартовые площадки,POINT (37.66437 55.636261),designed,renov-2023,https://stroi.mos.ru/construction/2022,"Кантемировская ул., напротив д. 27",2021
+construction-2034,Стартовые площадки,POINT (37.575044219018 55.653708206205),designed,renov-2023,https://stroi.mos.ru/construction/2034,"кв. 40, Каховка ул., вл.23",2021
+construction-2003,Стартовые площадки,POINT (37.716164627913 55.728891087579),designed,renov-2023,https://stroi.mos.ru/construction/2003,"кв. 80, между Новохохловской ул. и Третьим транспортным кольцом",2021
+construction-2039,Стартовые площадки,POINT (37.575942975671 55.657773037488),designed,renov-2023,https://stroi.mos.ru/construction/2039,"кв. 38, Севастопольский проспект, вл. 71",2021
+construction-2046,Стартовые площадки,POINT (37.481692814118 55.709288396954),designed,renov-2023,https://stroi.mos.ru/construction/2046,"мкр. 1, Веерная ул.",2021
+construction-2041,Стартовые площадки,POINT (37.542398033837 55.641578340903),designed,renov-2023,https://stroi.mos.ru/construction/2041,"Коньково, мкр.6, корп.3",2021
+construction-2053,Стартовые площадки,POINT (37.546936506607 55.673609833142),designed,renov-2023,https://stroi.mos.ru/construction/2053,"кв. 20, 21, Гарибальди ул., вл.17",2021
+construction-2060,Стартовые площадки,POINT (37.511829784761 55.757518629956),designed,renov-2023,https://stroi.mos.ru/construction/2060,"Береговой проезд, вл. 2, вл. 2, стр. 18, вл. 2, стр.19",2021
+construction-1884,Стартовые площадки,POINT (37.636065436488 55.871751463374),designed,renov-1719,https://stroi.mos.ru/construction/1884,"Южное Медведково, мкр. 1, 2, 3, корп. 39",2019
+construction-2058,Стартовые площадки,POINT (37.54604173792 55.64007990186),designed,renov-2023,https://stroi.mos.ru/construction/2058,"район Коньково, мкр. 6, корп. 2",2021
+construction-1889,Стартовые площадки,POINT (37.752316910074 55.708651675393),designed,renov-1719,https://stroi.mos.ru/construction/1889,"Кузьминки, кв. 115  корп. 16",2019
+construction-2084,Стартовые площадки,POINT (37.183603507935 55.410590682346),designed,renov-2023,https://stroi.mos.ru/construction/2084,"поселок Шишкин лес, вблизи д. 21",2021
+construction-1942,Стартовые площадки,POINT (37.539690921356 55.840243573265),designed,renov-2023,https://stroi.mos.ru/construction/1942,"3-й Новомихалковский проезд, вл. 8, корп.1",2021
+road-37,Северный дублер Кутузовского проспекта,POINT (37.620393 55.75396),construction,road,https://stroi.mos.ru/road/trunk/37,,
+road-25,Дмитровское шоссе,POINT (37.547746 55.875875),operation,road,https://stroi.mos.ru/road/trunk/25,"Россия, Москва, Дмитровское шоссе",
+road-32,Ярославское шоссе,POINT (37.703559 55.866319),operation,road,https://stroi.mos.ru/road/trunk/32,,
+construction-2185,Стартовые площадки,POINT (37.753739 55.684368),designed,renov-2023,https://stroi.mos.ru/construction/2185,Спортивный проезд на территории спортивного ядра школы № 2121 школьного отделения № 1,2022
+construction-2180,Стартовые площадки,POINT (37.796517 55.765458),designed,renov-2023,https://stroi.mos.ru/construction/2180,"Шоссе Энтузиастов, вл. 86",2021
+construction-2173,Стартовые площадки,POINT (37.637934364418 55.859582974633),designed,renov-2023,https://stroi.mos.ru/construction/2173,"Тенистый пр-д, вл. 6",2021
+construction-2197,Стартовые площадки,POINT (37.287245 55.466736),designed,renov-2023,https://stroi.mos.ru/construction/2197,"Мкр. Солнечный, корп. 18, корп. 19",2021
+construction-2178,Стартовые площадки,POINT (37.761874 55.800857),designed,renov-2023,https://stroi.mos.ru/construction/2178,"Сиреневый б-р, вл. 4",2021
+construction-2192,Стартовые площадки,POINT (37.630952 55.66756),designed,renov-2023,https://stroi.mos.ru/construction/2192,"Каширское шоссе, вл. 11, корп. 3",2021
+road-1,Развязка с Волгоградским проспектом,POINT (37.830678714808 55.687196161014),operation,road,https://stroi.mos.ru/road/interchange/1,"Россия, Москва, Волгоградский проспект",
+construction-2116,ТПУ «Котельники»,POINT (37.856339 55.674506),construction,tpu,https://stroi.mos.ru/construction/2116,Новорязанское шоссе,2018
+construction-2130,ТПУ «Нагатинская»,POINT (37.622863 55.683386),designed,tpu,https://stroi.mos.ru/construction/2130,появится рядом со станцией метро «Нагатинская» Серпуховско-Тимирязевской линии и железнодорожной платформой «Нижние Котлы»,2020
+construction-2128,ТПУ «Мнёвники»,POINT (37.457000821076 55.753318171573),designed,tpu,https://stroi.mos.ru/construction/2128,Северная часть территории Мневниковской поймы,2021
+road-20,Волгоградский проспект,POINT (37.749274 55.707644),operation,road,https://stroi.mos.ru/road/trunk/20,"Россия, Москва, Волгоградский проспект",
+construction-2217,"Бабушкинский район, ул. Летчика Бабушкина, вл. 39",POINT (37.676293 55.875243),operation,renov-bld,https://stroi.mos.ru/construction/2217,,2017
+construction-2224,"Северное Медведково, Заревый проезд, вл. 9-11",POINT (37.65655040741 55.884833894446),operation,renov-bld,https://stroi.mos.ru/construction/2224,,2017
+road-44,Окская улица,POINT (37.620393 55.75396),construction,road,https://stroi.mos.ru/road/regional/44,,
+construction-1923,Стартовые площадки,POINT (37.670968 55.7812),designed,renov-2023,https://stroi.mos.ru/construction/1923,"Русаковская  д.2/1, стр.1, 2",2021
+construction-2255,Кинотеатр «Патриот»,POINT (37.467554 55.774674),designed,cinema,https://stroi.mos.ru/construction/2255,"Улица Саляма Адиля, д. 4",2020
+construction-2243,Кинотеатр «Нева»,POINT (37.473105 55.861777),designed,cinema,https://stroi.mos.ru/construction/2243,"ул. Беломорская,  д. 16",2020
+metro_station-87,"""Улица Академика Опарина""",POINT (37.503666 55.646035),designed,metro,https://stroi.mos.ru/metro/station/87,"Россия, Москва, улица Академика Опарина",
+metro_station-94,"""Академическая""",POINT (37.573447 55.687761),designed,metro,https://stroi.mos.ru/metro/station/94,"Россия, Москва, метро Академическая",
+metro_station-82,"""Улица  800-летия Москвы""",POINT (37.54648 55.878364),designed,metro,https://stroi.mos.ru/metro/station/82,,
+metro_station-18,"""Котельники""",POINT (37.859129 55.6739),operation,metro,https://stroi.mos.ru/metro/station/18,"Россия, Москва, Таганско-Краснопресненская линия, метро Котельники",
+metro_station-37,"""Петровско-Разумовская""",POINT (37.576737460327 55.836732516486),operation,metro,https://stroi.mos.ru/metro/station/37,"Россия, Москва, Локомотивный проезд",
+metro_station-20,"""Лермонтовский проспект""",POINT (37.852131 55.701531),operation,metro,https://stroi.mos.ru/metro/station/20,,
+metro_station-13,"""Деловой центр""",POINT (37.542671 55.748843),operation,metro,https://stroi.mos.ru/metro/station/13,,
+road-49,Улица Василисы Кожиной,POINT (37.620393 55.75396),construction,road,https://stroi.mos.ru/road/regional/49,,
+construction-2236,Кинотеатр «Волга»,POINT (37.540308 55.889689),designed,cinema,https://stroi.mos.ru/construction/2236,"Дмитровское ш., 133, корп. 1",2020
+construction-2027,Стартовые площадки,POINT (37.574299391199 55.677347754359),designed,renov-2023,https://stroi.mos.ru/construction/2027,"ТПУ ""Профсоюзная""",2021
+construction-2135,ТПУ «Озерная»,POINT (37.447576 55.671121),designed,tpu,https://stroi.mos.ru/construction/2135,появится на базе строящейся станции метро «Очаково» Калининско-Солнцевской линии,2018
+construction-2154,ТПУ «Терёшково»,POINT (37.412549 55.659266),designed,tpu,https://stroi.mos.ru/construction/2154,"появится на участке ограниченном Боровским шоссе, улицей 50 лет Октября и проездом 6055",2020
+construction-2248,Кинотеатр «Восход»,POINT (37.771328 55.726558),designed,cinema,https://stroi.mos.ru/construction/2248,"Улица Михайлова, д. 29",2020
+construction-2250,Кинотеатр «Экран»,POINT (37.722487 55.649048),designed,cinema,https://stroi.mos.ru/construction/2250,"Новочеркасский бульвар, д. 19А",2020
+construction-2231,Кинотеатр «Варшава»,POINT (37.500531 55.820162),designed,cinema,https://stroi.mos.ru/construction/2231,"Площадь Ганецкого, д. 1",2020
+construction-2109,ТПУ «Варшавская»,POINT (37.620461 55.653749),designed,tpu,https://stroi.mos.ru/construction/2109,Варшавское шоссе,2021
+construction-2320,Храм святого Николая на Трех горах,POINT (37.56619 55.75866),designed,religion,https://stroi.mos.ru/construction/2320,"Нововаганьковский переулок, дом 9, строение 1",
+construction-2325,Храм Живоначальной Троицы,POINT (37.654535 55.809199),construction,religion,https://stroi.mos.ru/construction/2325,"1-й Рижский переулок, д. 2, стр. 1",2019
+metro_station-56,"""Ховрино""",POINT (37.479501721337 55.879349820634),construction,metro,https://stroi.mos.ru/metro/station/56,"Россия, Москва, Прибрежный проезд",
+construction-2262,Кинотеатр «Будапешт»,POINT (37.604547 55.897327),designed,cinema,https://stroi.mos.ru/construction/2262,"ул. Лескова, д. 14",2020
+construction-2267,Кинотеатр «Таллин»,POINT (37.592168 55.67522),designed,cinema,https://stroi.mos.ru/construction/2267,"Cевастопольский проспект, д. 33",2020
+metro_station-44,"""Севастопольский проспект"" (""Зюзино"")",POINT (37.571954624329 55.656667722601),designed,metro,https://stroi.mos.ru/metro/station/44,"Россия, Москва, Севастопольский проспект",
+metro_station-68,"""Проспект Вернадского""",POINT (37.505831 55.67691),designed,metro,https://stroi.mos.ru/metro/station/68,,
+metro_station-75,"""Филатов Луг""",POINT (37.409985 55.596413),designed,metro,https://stroi.mos.ru/metro/station/75,,
+construction-2159,ТПУ «Ул. Дмитриевского»,POINT (37.878506 55.71049),designed,tpu,https://stroi.mos.ru/construction/2159,ул. Салтыковская,2019
+road-51,Проектируемый проезд в районе Хорошево-Мневники,POINT (37.620393 55.75396),construction,road,https://stroi.mos.ru/road/regional/51,,
+metro_station-32,"""Окружная""",POINT (37.573741287778 55.846946046677),operation,metro,https://stroi.mos.ru/metro/station/32,"Россия, Москва, Гостиничный проезд",
+metro_station-63,"""Минская""",POINT (37.496001995384 55.725643428192),operation,metro,https://stroi.mos.ru/metro/station/63,"Россия, Москва, Минская улица",
+metro_station-51,"""Тропарево""",POINT (37.472342 55.64572),operation,metro,https://stroi.mos.ru/metro/station/51,,
+construction-2337,Храм в честь Димитрия Ростовского,POINT (37.796608 55.721233),construction,religion,https://stroi.mos.ru/construction/2337,"ул. Вострухина, вл. 9",2018
+metro_station-6,"""Боровское шоссе""",POINT (37.370892835785 55.649349764012),construction,metro,https://stroi.mos.ru/metro/station/6,"Россия, Москва, Боровское шоссе",
+metro_station-25,"""Мичуринский проспект""",POINT (37.483729509857 55.689973534824),construction,metro,https://stroi.mos.ru/metro/station/25,,
+construction-2332,Храм 12 апостолов в Ховрино,POINT (37.494805 55.869552),construction,religion,https://stroi.mos.ru/construction/2332,"ул. Клинская, вл. 12-14",2019
+metro_station-49,"""Терехово""",POINT (37.445521430184 55.749252376964),designed,metro,https://stroi.mos.ru/metro/station/49,"Россия, Москва, улица Нижние Мнёвники",
+construction-2166,ТПУ «Ходынское поле»,POINT (37.525044 55.788173),designed,tpu,https://stroi.mos.ru/construction/2166,расположится на базе станции метро «ЦСКА» Третьего пересадочного контура,2018
+construction-2147,ТПУ «Саларьево»,POINT (37.422644 55.623095),designed,tpu,https://stroi.mos.ru/construction/2147,,2020
+construction-2111,ТПУ «Дмитровская»,POINT (37.579495 55.810056),designed,tpu,https://stroi.mos.ru/construction/2111,На пересечении Дмитровского шоссе с Дмитровским проездом,2021
+construction-2123,ТПУ «Люблино»,POINT (37.762389 55.676712),designed,tpu,https://stroi.mos.ru/construction/2123,появится на пересечении улиц Краснодарской и Совхозной,2020
+construction-2142,ТПУ «Пятницкое шоссе»,POINT (37.355345066132 55.857083687168),designed,tpu,https://stroi.mos.ru/construction/2142,расположится у северного вестибюля одноименной станции метро Арбатско-Покровской линии (в районе примыкания к Пятницкому шоссе Муравской улицы),2019
+metro_station-70,"""Кленовый бульвар""",POINT (37.682127 55.67521),designed,metro,https://stroi.mos.ru/metro/station/70,,
+road-18,Северо-Восточная хорда,POINT (37.529618 55.85917),construction,road,https://stroi.mos.ru/road/road/18,"Россия, Москва, Северо-Восточная хорда",
+construction-2274,Стартовые площадки,POINT (37.480001 55.844561),designed,renov-2023,https://stroi.mos.ru/construction/2274,"Пулковская ул., вл. 3, корп. 1, корп. 2",2021
+metro_station-1,"""Авиамоторная""",POINT (37.716621 55.751432),construction,metro,https://stroi.mos.ru/metro/station/1,,
+road-14,Развязка с Щелковским шоссе,POINT (37.839003390466 55.813882856918),designed,road,https://stroi.mos.ru/road/interchange/14,"Россия, Москва, Щёлковское шоссе",
+road-7,Развязка с Волоколамским шоссе,POINT (37.396157912414 55.832447303844),designed,road,https://stroi.mos.ru/road/interchange/7,"Россия, Москва, Волоколамское шоссе",
+construction-2080,Стартовые площадки,POINT (37.184331260201 55.984439872236),designed,renov-2023,https://stroi.mos.ru/construction/2080,"мкр. 9, город Зеленоград, корп.934",2021
+construction-2047,Стартовые площадки,POINT (37.408636 55.72187),designed,renov-2023,https://stroi.mos.ru/construction/2047,"кв.71, 72, ул.Кубинка, д.18, корп. 2",2021
+construction-2023,Стартовые площадки,POINT (37.659553758274 55.636420243323),designed,renov-2023,https://stroi.mos.ru/construction/2023,"ул. Кантемировкая, вл. 37-41",2021
+construction-1924,Стартовые площадки,POINT (37.673061 55.782643),designed,renov-2023,https://stroi.mos.ru/construction/1924,"кв. 998, район Красносельский, Русаковская ул., д.6",2021
+construction-1981,Стартовые площадки,POINT (37.824543200833 55.80918811637),designed,renov-2023,https://stroi.mos.ru/construction/1981,"Северное Измайлово, мкр. 80, корп. 7",2021
+construction-1897,Стартовые площадки,POINT (37.581679341007 55.685699962042),designed,renov-1719,https://stroi.mos.ru/construction/1897,"район Академический, кв. 12, корп.11",2019
+construction-1917,Стартовые площадки,POINT (37.453417615065 55.731318028482),designed,renov-1719,https://stroi.mos.ru/construction/1917,"район Фили-Давыдково, кв. 71, корп. 18",2019
+construction-1873,Стартовые площадки,POINT (37.569480710977 55.810889784515),designed,renov-1719,https://stroi.mos.ru/construction/1873,"Тимирязевская ул., вл. 8",2019
+construction-1905,Стартовые площадки,POINT (37.569262023727 55.545940460234),designed,renov-1719,https://stroi.mos.ru/construction/1905,"район Южное Бутово, кв. 2, корп. 24",2019
+construction-1900,Стартовые площадки,POINT (37.527003233386 55.648491922581),designed,renov-1719,https://stroi.mos.ru/construction/1900,"район Коньково, кв. 44-47, корп. 14",2019
+construction-1931,Стартовые площадки,POINT (37.509645483016 55.856297425389),designed,renov-2023,https://stroi.mos.ru/construction/1931,"район Головинский, Флотская ул., вл. 68, корп. 2",2021
+construction-1929,Стартовые площадки,POINT (37.490829827755 55.845939263635),designed,renov-2023,https://stroi.mos.ru/construction/1929,"район Головинский, Авангардная ул., вл. 10",2021
+construction-1912,Стартовые площадки,POINT (37.508722871421 55.665988989354),designed,renov-1719,https://stroi.mos.ru/construction/1912,"Проспект Вернадского, кв. 32-33, корп. 54",2019
+construction-1885,Стартовые площадки,POINT (37.634326278133 55.87163178257),designed,renov-1719,https://stroi.mos.ru/construction/1885,"Южное Медведково, мкр. 1, 2, 3, корп. 38",2019
+construction-1880,Стартовые площадки,POINT (37.656197889341 55.885421953884),designed,renov-1719,https://stroi.mos.ru/construction/1880,"Заревый проезд, вл. 9-11",2019
+construction-1892,Стартовые площадки,POINT (37.736640486132 55.697872886887),designed,renov-1719,https://stroi.mos.ru/construction/1892,"ул. Артюхиной, д.28 А",2019
+construction-1878,Стартовые площадки,POINT (37.638480959246 55.879827300865),designed,renov-1719,https://stroi.mos.ru/construction/1878,"ул. Полярная, д. 22",2019
+construction-1948,Стартовые площадки,POINT (37.688727674821 55.874816908478),designed,renov-2023,https://stroi.mos.ru/construction/1948,"район Лосиноостровский, мкр. 3, корп. 53",2021
+construction-1950,Стартовые площадки,POINT (37.577517921218 55.846440346256),designed,renov-2023,https://stroi.mos.ru/construction/1950,"Гостиничный проезд, вл.8, корп. 2",2021
+construction-1974,Стартовые площадки,POINT (37.873721390943 55.706886429672),designed,renov-2023,https://stroi.mos.ru/construction/1974,"Каскадная ул., вл. 21, участок 2",2021
+construction-1943,Стартовые площадки,POINT (37.562669 55.812777),designed,renov-2023,https://stroi.mos.ru/construction/1943,"Астрадамская ул., вл. 9А",2021
+construction-1962,Стартовые площадки,POINT (37.736963 55.815704),designed,renov-2023,https://stroi.mos.ru/construction/1962,"ТПУ ""Открытое шоссе""",2021
+construction-2011,Стартовые площадки,POINT (37.613857761267 55.709744658047),designed,renov-2023,https://stroi.mos.ru/construction/2011,на пересечении 5-го Рощинского проезда и 2-ой Рощинской ул.,2021
+construction-1993,Стартовые площадки,POINT (37.786318124673 55.698084510322),designed,renov-2023,https://stroi.mos.ru/construction/1993,"мкр. 118, ул. Юных Ленинцев, вл. 117",2021
+construction-2016,Стартовые площадки,POINT (37.627452 55.678986),designed,renov-2023,https://stroi.mos.ru/construction/2016,"Варшавское шоссе, напротив д. 47, корп. 2",2021
+construction-1998,Стартовые площадки,POINT (37.739299349026 55.678400321977),designed,renov-2023,https://stroi.mos.ru/construction/1998,"мкр. А, Люблинская ул., д. 113",2021
+construction-2004,Стартовые площадки,POINT (37.791414 55.720738),designed,renov-2023,https://stroi.mos.ru/construction/2004,"мкр. 128А, ул. Паперника, д.12",2021
+construction-1979,Стартовые площадки,POINT (37.781719084676 55.752670004594),designed,renov-2023,https://stroi.mos.ru/construction/1979,"2-я Владимирская ул., вл. 30",2021
+construction-2042,Стартовые площадки,POINT (37.600340164279 55.646622898198),designed,renov-2023,https://stroi.mos.ru/construction/2042,"кв. 26, 31, Черноморский бульвар, д. 22, корп. 2",2021
+construction-2059,Стартовые площадки,POINT (37.559298532818 55.542093782686),designed,renov-2023,https://stroi.mos.ru/construction/2059,"Краснолиманская ул., вл. 27",2021
+construction-2061,Стартовые площадки,POINT (37.472689972675 55.735792239411),designed,renov-2023,https://stroi.mos.ru/construction/2061,"ул. Кастанаевская, вл. 44-48",2021
+construction-2054,Стартовые площадки,POINT (37.579208663477 55.562428782554),designed,renov-2023,https://stroi.mos.ru/construction/2054,"Феодосийская ул., вл. 7",2021
+construction-2030,Стартовые площадки,POINT (37.591752784036 55.657664088856),designed,renov-2023,https://stroi.mos.ru/construction/2030,"кв.14, Болотниковская ул., вл. 31",2021
+construction-2035,Стартовые площадки,POINT (37.585554076196 55.659813521381),designed,renov-2023,https://stroi.mos.ru/construction/2035,"кв. 37, Керченская ул., вл. 2",2021
+construction-2028,Стартовые площадки,POINT (37.581972946671 55.693338611715),designed,renov-2023,https://stroi.mos.ru/construction/2028,"кв.18, ул. Шверника, вл. 6",2021
+construction-2066,Стартовые площадки,POINT (37.423597381753 55.85344739715),designed,renov-2023,https://stroi.mos.ru/construction/2066,"кв. 5, Туристская ул., вл.14, корп.1, 2",2021
+construction-1986,Стартовые площадки,POINT (37.756029295328 55.708633508767),designed,renov-1719,https://stroi.mos.ru/construction/1986,"район Кузьминки, кв. 115, корп. 17",2019
+construction-2078,Стартовые площадки,POINT (37.180036956661 55.971238823978),designed,renov-2023,https://stroi.mos.ru/construction/2078,"мкр. 19, город Зеленоград, корп. 1935",2021
+construction-2085,Стартовые площадки,POINT (37.473375423137 55.605279382606),designed,renov-2023,https://stroi.mos.ru/construction/2085,"ТПУ ""Мамыри""",2021
+road-21,Можайское шоссе,POINT (37.415092 55.718349),operation,road,https://stroi.mos.ru/road/trunk/21,"Россия, Москва, Можайское шоссе",
+construction-2193,Стартовые площадки,POINT (37.466465 55.721903),designed,renov-2023,https://stroi.mos.ru/construction/2193,"Давыдковская ул., вл. 14-16",2021
+construction-2186,Стартовые площадки,POINT (37.662974008598 55.712608820221),designed,renov-2023,https://stroi.mos.ru/construction/2186,Ленинская слобода пересечение с Пересветов пер,2021
+construction-2179,Стартовые площадки,POINT (37.876008 55.700241),designed,renov-2023,https://stroi.mos.ru/construction/2179,"Камова ул., вл. 24-26",2020
+construction-2162,ТПУ «Ул. Новаторов»,POINT (37.522344 55.672411),designed,tpu,https://stroi.mos.ru/construction/2162,"Вдоль улицы Новаторов, у примыкания к Ленинскому проспекту",
+construction-2117,ТПУ «Красный строитель»,POINT (37.622079 55.593426),designed,tpu,https://stroi.mos.ru/construction/2117,"ул. Подольских курсантов, ул. Мелитопольской, ж/д станция Красный Строитель",2022
+construction-2124,ТПУ «Мамыри»,POINT (37.482267 55.599946),designed,tpu,https://stroi.mos.ru/construction/2124,появится на пересечении Калужского шоссе с ул. Адмирала Корнилова,2021
+construction-2129,ТПУ «Молодежная»,POINT (37.415890767212 55.740875593355),designed,tpu,https://stroi.mos.ru/construction/2129,расположится вдоль улицы Ярцевская,2022
+road-2,Развязка с Дмитровским шоссе,POINT (37.543810187674 55.908067197637),operation,road,https://stroi.mos.ru/road/interchange/2,"Россия, Москва, Дмитровское шоссе",
+road-45,Улица Барклая,POINT (37.620393 55.75396),construction,road,https://stroi.mos.ru/road/regional/45,,
+construction-2218,"Бабушкинский район, ул. Летчика Бабушкина, вл. 29, к. 2",POINT (37.673724 55.869805),operation,renov-bld,https://stroi.mos.ru/construction/2218,,2017
+construction-2220,"Южное Медведково, мкр. 1-2-3, корп. 38",POINT (37.634759359383 55.871672400267),operation,renov-bld,https://stroi.mos.ru/construction/2220,,2017
+construction-2225,"Южное Бутово, кв. 1, корп. 13",POINT (37.565754 55.543133),operation,renov-bld,https://stroi.mos.ru/construction/2225,,2017
+construction-2181,Стартовые площадки,POINT (37.742637414333 55.760027465603),designed,renov-2023,https://stroi.mos.ru/construction/2181,"Гаражная ул., вл. 3",2021
+construction-2232,Кинотеатр «Бирюсинка»,POINT (37.64878 55.579638),designed,cinema,https://stroi.mos.ru/construction/2232,"Улица Булатниковская, д. 9А",2020
+construction-2237,Кинотеатр «Комсомолец»,POINT (37.568488 55.840684),designed,cinema,https://stroi.mos.ru/construction/2237,"Дмитровское ш., д. 49",2020
+construction-2251,Кинотеатр «Аврора»,POINT (37.504618 55.621536),designed,cinema,https://stroi.mos.ru/construction/2251,"Улица Профсоюзная, д. 154",2020
+construction-2244,Кинотеатр «Рассвет»,POINT (37.518084 55.824106),designed,cinema,https://stroi.mos.ru/construction/2244,"ул. З. и А. Космодемьянских,  д. 23",2020
+construction-2268,Кинотеатр «Улан-Батор»,POINT (37.57837 55.689568),designed,cinema,https://stroi.mos.ru/construction/2268,"ул. Гримау, д. 12",2020
+metro_station-95,"""Крымская""",POINT (37.605122 55.689999),designed,metro,https://stroi.mos.ru/metro/station/95,"Россия, Москва, Московское центральное кольцо, станция Крымская",
+metro_station-90,"""Мамыри""",POINT (37.474318 55.602927),designed,metro,https://stroi.mos.ru/metro/station/90,"Россия, Москва, поселение Мосрентген, деревня Мамыри",
+metro_station-88,"""Улица Генерала Тюленева""",POINT (37.487335 55.618171),designed,metro,https://stroi.mos.ru/metro/station/88,"Россия, Москва, улица Генерала Тюленева",
+metro_station-71,"""Печатники""",POINT (37.728398 55.692972),designed,metro,https://stroi.mos.ru/metro/station/71,"Россия, Москва, метро Печатники",
+metro_station-83,"""Физтех""",POINT (37.545439843933 55.923694502505),construction,metro,https://stroi.mos.ru/metro/station/83,,
+metro_station-7,"""Бутырская""",POINT (37.601322337581 55.814148550396),operation,metro,https://stroi.mos.ru/metro/station/7,"Россия, Москва, улица Руставели",
+metro_station-2,"""Алма-Атинская""",POINT (37.765678 55.63349),operation,metro,https://stroi.mos.ru/metro/station/2,,
+metro_station-21,"""Лесопарковая""",POINT (37.57731 55.581968),operation,metro,https://stroi.mos.ru/metro/station/21,,
+construction-2131,ТПУ «Нагатинский затон»,POINT (37.706694 55.684841),construction,tpu,https://stroi.mos.ru/construction/2131,появится рядом с будущей одноименной станцией метро Третьего пересадочного контура,2020
+construction-2275,Стартовые площадки,POINT (37.57487 55.841553),designed,renov-2023,https://stroi.mos.ru/construction/2275,"Линейный пр-д, вл. 8А",2021
+construction-2263,Кинотеатр «Ладога»,POINT (37.659416 55.886711),designed,cinema,https://stroi.mos.ru/construction/2263,"Широкая улица,  д. 12",2020
+construction-2256,Кинотеатр «Звездный»,POINT (37.504798 55.67693),designed,cinema,https://stroi.mos.ru/construction/2256,"Проспект Вернадского, д. 14",2020
+construction-2249,Кинотеатр «Высота»,POINT (37.765381 55.699781),designed,cinema,https://stroi.mos.ru/construction/2249,"Улица Юных Ленинцев, д. 52",2020
+construction-1866,Стартовая площадка реновации,POINT (37.558465781986 55.859382550465),designed,renov-1719,https://stroi.mos.ru/construction/1866,"район Бескудниковский, мкр. 5, корп. 7",2019
+construction-2333,"Храм в честь святителя Спиридона, епископа Тримифунтского",POINT (37.529718 55.830482),construction,religion,https://stroi.mos.ru/construction/2333,"ул. Большая Академическая, вл. 33",2019
+construction-2326,Храм в честь Казанской иконы Божией Матери,POINT (37.409823 55.675714),construction,religion,https://stroi.mos.ru/construction/2326,пересечение улицы Воскресенская с Мещерским проспектом,2018
+construction-2097,Стартовые площадки,POINT (37.558880929607 55.862704359708),operation,renov-2023,https://stroi.mos.ru/construction/2097,"район Бескудниковский, мкр. 5, корп. 5",2016
+construction-2174,Стартовые площадки,POINT (37.633253 55.878309),designed,renov-2023,https://stroi.mos.ru/construction/2174,"Молодцова, д. 17, к. 1",2022
+road-26,Волоколамское шоссе,POINT (37.436508 55.823581),operation,road,https://stroi.mos.ru/road/trunk/26,,
+road-38,Южный дублер Кутузовского проспекта,POINT (37.620393 55.75396),construction,road,https://stroi.mos.ru/road/trunk/38,,
+metro_station-26,"""Мнёвники""",POINT (37.46818673917 55.764380998724),construction,metro,https://stroi.mos.ru/metro/station/26,"Россия, Москва, улица Нижние Мнёвники",
+metro_station-69,"""Шереметьевская""",POINT (37.616108 55.798414),designed,metro,https://stroi.mos.ru/metro/station/69,,
+metro_station-33,"""Окская улица""",POINT (37.781357096248 55.718967761254),construction,metro,https://stroi.mos.ru/metro/station/33,"Россия, Москва, Окская улица",
+metro_station-76,"""Прокшино""",POINT (37.43649 55.57637),designed,metro,https://stroi.mos.ru/metro/station/76,"Россия, Москва, поселение Сосенское, деревня Прокшино",
+metro_station-19,"""Можайская"" (""Кунцевская"")",POINT (37.446874 55.730877),designed,metro,https://stroi.mos.ru/metro/station/19,,
+metro_station-57,"""ЦСКА""",POINT (37.528627571859 55.785919059616),operation,metro,https://stroi.mos.ru/metro/station/57,"Россия, Москва, Северный административный округ, Хорошёвский район, Ходынское поле",
+metro_station-45,"""Селигерская""",POINT (37.546677248737 55.864987428126),operation,metro,https://stroi.mos.ru/metro/station/45,"Россия, Москва, пересечение Дмитровского и Коровинского шоссе",
+metro_station-40,"""Раменки""",POINT (37.498245658783 55.697558923975),operation,metro,https://stroi.mos.ru/metro/station/40,"Россия, Москва, Мичуринский проспект",
+road-33,Калужское шоссе,POINT (37.11872 55.281385),construction,road,https://stroi.mos.ru/road/trunk/33,"Россия, Калужское шоссе",
+construction-2167,ТПУ «Щукинская»,POINT (37.463772 55.808827),designed,tpu,https://stroi.mos.ru/construction/2167,,2021
+metro_station-64,"""Рубцовская""",POINT (37.702237029428 55.776384520051),construction,metro,https://stroi.mos.ru/metro/station/64,"Россия, Москва, Семёновская набережная",
+metro_station-52,"""Улица Дмитриевского""",POINT (37.879245915283 55.710630942977),construction,metro,https://stroi.mos.ru/metro/station/52,"Россия, Москва, улица Дмитриевского",
+construction-2150,ТПУ «Селигерская»,POINT (37.547893 55.864005),designed,tpu,https://stroi.mos.ru/construction/2150,расположится на пересечении Дмитровского и Коровинского шоссе,2020
+construction-2136,ТПУ Павелецкий,POINT (37.636829837398 55.729443095472),designed,tpu,https://stroi.mos.ru/construction/2136,расположится в районе Дубининской улицы,2022
+construction-2155,ТПУ «Технопарк»,POINT (37.666279 55.693451),designed,tpu,https://stroi.mos.ru/construction/2155,на территории бывшего завода им. Лихачева (ЗИЛ),2020
+construction-2143,ТПУ «Рассказовка»,POINT (37.330508 55.633389),designed,tpu,https://stroi.mos.ru/construction/2143,появится рядом с одноименной станцией метро Калининско-Солнцевской линии,2020
+construction-2105,ТПУ «Алма-Атинская»,POINT (37.763427166656 55.633274379785),designed,tpu,https://stroi.mos.ru/construction/2105,появится рядом с одноименной станцией метро Замоскворецкой линии (на пересечении улиц Братеевской и Ключевой),2021
+road-19,Южная рокада,POINT (37.592204 55.642225),construction,road,https://stroi.mos.ru/road/road/19,"Россия, Москва, Балаклавский проспект",
+construction-2388,Храм в честь священномученика Ермогена,POINT (37.428628 55.843896),construction,religion,https://stroi.mos.ru/construction/2388,"Фабрициуса, вл. 33-35",2018
+road-3,Развязка с Мичуринским проспектом,POINT (37.432947349102 55.661709116522),operation,road,https://stroi.mos.ru/road/interchange/3,"Россия, Москва, Мичуринский проспект",
+road-15,Бусиновская развязка,POINT (37.482672 55.887084),operation,road,https://stroi.mos.ru/road/interchange/15,"Россия, Москва, Бусиновская развязка",
+road-8,Развязка с Каширским шоссе,POINT (37.729288943466 55.590754328811),operation,road,https://stroi.mos.ru/road/interchange/8,"Россия, Москва, Каширское шоссе",
+road-10,Развязка с улицей Верхние Поля,POINT (37.839470898435 55.656879781919),designed,road,https://stroi.mos.ru/road/interchange/10,"Россия, Москва, улица Верхние Поля",
+construction-1886,Стартовые площадки,POINT (37.81106351786 55.810135740122),designed,renov-1719,https://stroi.mos.ru/construction/1886,"Северное Измайлово, кв.49, 50, корп. 2, Щёлковское шоссе, д. 74",2017
+construction-1906,Стартовые площадки,POINT (37.430579 55.725879),designed,renov-1719,https://stroi.mos.ru/construction/1906,"район Можайский, кв. 78-80, ул. Красных Зорь, корп. 1, 2,ул. Красных Зорь, д. 59Б",2017
+construction-2012,Стартовые площадки,POINT (37.612158663399 55.690499178202),designed,renov-2023,https://stroi.mos.ru/construction/2012,"Севастопольский проспект, напротив д. 7, корп. 6",2021
+construction-1867,Стартовая площадка реновации,POINT (37.56132 55.859504),designed,renov-1719,https://stroi.mos.ru/construction/1867,"Бескудниковский бульвар, д. 5",2017
+construction-1898,Стартовые площадки,POINT (37.522084384207 55.648727143061),designed,renov-1719,https://stroi.mos.ru/construction/1898,"район Коньково, кв. 44-47, корп. 11",2019
+construction-1932,Стартовые площадки,POINT (37.51246065554 55.855201638072),designed,renov-2023,https://stroi.mos.ru/construction/1932,"район Головинский, Онежская ул., вл. 35, корп. 5",2021
+construction-1913,Стартовые площадки,POINT (37.507434227548 55.671947135245),designed,renov-1719,https://stroi.mos.ru/construction/1913,"Проспект Вернадского, кв. 32-33, корп. 77-1",2019
+construction-2081,Стартовые площадки,POINT (37.185701993931 55.983710371577),designed,renov-2023,https://stroi.mos.ru/construction/2081,"мкр. 9, город Зеленоград,  корп.935",2021
+construction-1918,Стартовые площадки,POINT (37.464621159338 55.737490086479),designed,renov-1719,https://stroi.mos.ru/construction/1918,"район  Фили-Давыдково,  кв. 65, корп. 3",2019
+construction-1901,Стартовые площадки,POINT (37.595883566873 55.680920259195),designed,renov-1719,https://stroi.mos.ru/construction/1901,"район Котловка, кв. 18, корп. 6",2019
+construction-1994,Стартовые площадки,POINT (37.768102015355 55.700477864216),designed,renov-2023,https://stroi.mos.ru/construction/1994,"мкр. 117, ул. Юных Ленинцев, вл. 73",2021
+construction-2079,Стартовые площадки,POINT (37.179060788607 55.970702874835),designed,renov-2023,https://stroi.mos.ru/construction/2079,"мкр. 19, город Зеленоград, корп. 1934",2021
+construction-1893,Стартовые площадки,POINT (37.716474771619 55.636402627793),designed,renov-1719,https://stroi.mos.ru/construction/1893,"Москворечье-Сабурово, ул. Борисовские пруды, д. 7, корп. 2",2019
+construction-1862,Стартовая площадка реновации,POINT (37.52706232539 55.751106952676),designed,renov-1719,https://stroi.mos.ru/construction/1862,"Шмитовский проезд, вл.39, Мукомольный проезд вл. 6",2019
+construction-1879,Стартовые площадки,POINT (37.644546141772 55.881141512602),designed,renov-1719,https://stroi.mos.ru/construction/1879,"проезд Шокальского, вл. 27 , корп. 2",2019
+construction-1874,Стартовые площадки,POINT (37.673809358411 55.870290900086),designed,renov-1719,https://stroi.mos.ru/construction/1874,"ул. Летчика Бабушкина, вл. 29, корп.2",2019
+construction-1920,Стартовые площадки,POINT (37.689477037484 55.777425546417),designed,renov-2023,https://stroi.mos.ru/construction/1920,"Бакунинская ул., вл.60",2021
+construction-1881,Стартовые площадки,POINT (37.648409711431 55.882546449041),designed,renov-1719,https://stroi.mos.ru/construction/1881,"проезд Шокальского, д.33",2019
+construction-1925,Стартовые площадки,POINT (37.676252478295 55.727797449144),designed,renov-2023,https://stroi.mos.ru/construction/1925,"ул. Мельникова, д.2",2021
+construction-1956,Стартовые площадки,POINT (37.643936151811 55.83587152354),designed,renov-2023,https://stroi.mos.ru/construction/1956,"ул. Сельскохозяйственная, вл.14",2021
+construction-1944,Стартовые площадки,POINT (37.643760576296 55.810810643699),designed,renov-2023,https://stroi.mos.ru/construction/1944,"Староалексеевская, вл. 3",2021
+construction-1982,Стартовые площадки,POINT (37.824778085427 55.807013868759),designed,renov-2023,https://stroi.mos.ru/construction/1982,"Северное Измайлово, мкр. 80, корп. 9",2021
+construction-1968,Стартовые площадки,POINT (37.827629 55.750852),designed,renov-2023,https://stroi.mos.ru/construction/1968,"район Ивановское, мкр. 40-52, корп.2",2021
+construction-1951,Стартовые площадки,POINT (37.608551220693 55.799748801475),designed,renov-2023,https://stroi.mos.ru/construction/1951,"ул. Октябрьская, вл.105",2021
+construction-1949,Стартовые площадки,POINT (37.685110645293 55.883722099137),designed,renov-2023,https://stroi.mos.ru/construction/1949,"ул. Тайнинская, вл.13",2021
+construction-1963,Стартовые площадки,POINT (37.813661271094 55.798634133159),designed,renov-2023,https://stroi.mos.ru/construction/1963,"13-я Парковая ул., вл. 16",2021
+construction-2005,Стартовые площадки,POINT (37.738084172377 55.695877052738),designed,renov-2023,https://stroi.mos.ru/construction/2005,"ул. Чистова, вл. 3А, стр. 1",2021
+construction-1999,Стартовые площадки,POINT (37.748927056136 55.668851468212),designed,renov-2023,https://stroi.mos.ru/construction/1999,"мкр. Ж, Краснодонская ул., д. 46",2021
+construction-2000,Стартовые площадки,POINT (37.738661476898 55.682544446665),designed,renov-2023,https://stroi.mos.ru/construction/2000,"мкр. А, Люблинская ул., д. 109, корп. 1",2021
+construction-2017,Стартовые площадки,POINT (37.631781 55.674958),designed,renov-2023,https://stroi.mos.ru/construction/2017,"Варшавское шоссе, напротив д. 61А",2021
+construction-1970,Стартовые площадки,POINT (37.763947 55.796925),designed,renov-2023,https://stroi.mos.ru/construction/1970,"Измайловский проезд, вл. 5",2021
+construction-2024,Стартовые площадки,POINT (37.670735521287 55.625528775164),designed,renov-2023,https://stroi.mos.ru/construction/2024,"Каспийская ул., д. 28, корп. 4",2021
+construction-2055,Стартовые площадки,POINT (37.54461923258 55.672864471825),designed,renov-2023,https://stroi.mos.ru/construction/2055,пересечение ул. Гарибальди и ул. Архитектора Власова,2021
+construction-2062,Стартовые площадки,POINT (37.473742293115 55.736154092771),designed,renov-2023,https://stroi.mos.ru/construction/2062,"ул. Кастанаевская, вл. 44-48, корп. 2",2021
+construction-2048,Стартовые площадки,POINT (37.397243 55.738019),designed,renov-2023,https://stroi.mos.ru/construction/2048,"Бобруйская ул., д. 15",2021
+construction-2029,Стартовые площадки,POINT (37.593215952184 55.646943872777),designed,renov-2023,https://stroi.mos.ru/construction/2029,"кв. 35, Б. Юшуньская ул., вл.7А",2021
+construction-2036,Стартовые площадки,POINT (37.577724413017 55.651432639483),designed,renov-2023,https://stroi.mos.ru/construction/2036,"кв. 40, Керченская ул., вл. 20",2021
+construction-2043,Стартовые площадки,POINT (37.402703556722 55.638731646251),designed,renov-2023,https://stroi.mos.ru/construction/2043,"ул. Авиаторов, ул. Родниковая",2021
+construction-2074,Стартовые площадки,POINT (37.456685769311 55.807241691277),designed,renov-2023,https://stroi.mos.ru/construction/2074,"мкр. 12, Новощукинская ул., вл. 8",2021
+construction-1987,Стартовые площадки,POINT (37.757366643166 55.708717111894),designed,renov-2023,https://stroi.mos.ru/construction/1987,"район Кузьминки, кв. 115, корп. 18",2021
+construction-2067,Стартовые площадки,POINT (37.405114875226 55.856818804181),designed,renov-2023,https://stroi.mos.ru/construction/2067,"ул. Вилиса Лациса, вл. 42",2021
+construction-1975,Стартовые площадки,POINT (37.764842573302 55.825883424196),designed,renov-2023,https://stroi.mos.ru/construction/1975,"Открытое шоссе, вл. 26",2021
+construction-2086,Стартовые площадки,POINT (37.537534350648 55.47382427822),designed,renov-2023,https://stroi.mos.ru/construction/2086,"поселок Знамя Октября, около д.3",2021
+construction-2031,Стартовые площадки,POINT (37.585008101068 55.663215893036),designed,renov-2023,https://stroi.mos.ru/construction/2031,"кв. 36, Болотниковская ул., вл. 48",2021
+road-39,Грайвороновская улица,POINT (37.620393 55.75396),construction,road,https://stroi.mos.ru/road/regional/39,,
+road-41,Развязка с улицей Генерала Дорохова,POINT (37.433526 55.688253),construction,road,https://stroi.mos.ru/road/interchange/41,"Россия, Москва, улица Генерала Дорохова",
+construction-2194,Стартовые площадки,POINT (37.340878 55.637401),designed,renov-2023,https://stroi.mos.ru/construction/2194,"Скульптора Мухиной ул., рядом с вл. 11",2021
+construction-2187,Стартовые площадки,POINT (37.664811 55.713735),designed,renov-2023,https://stroi.mos.ru/construction/2187,Ленинская слобода пересечение с Велозаводской ул,2021
+construction-2182,Стартовые площадки,POINT (37.798907 55.714196),designed,renov-2023,https://stroi.mos.ru/construction/2182,"Академика Скрябина ул., вл. 3",2020
+construction-2175,Стартовые площадки,POINT (37.567817 55.891198),designed,renov-2023,https://stroi.mos.ru/construction/2175,"Илимская, вл. 1-3",2021
+construction-2156,ТПУ «Тимирязевская»,POINT (37.575486 55.819044),designed,tpu,https://stroi.mos.ru/construction/2156,на базе одноименной станции метро Серпуховско-Тимирязевской линии метро,2023
+construction-2151,ТПУ «Славянский мир»,POINT (37.480813 55.619285),designed,tpu,https://stroi.mos.ru/construction/2151,расположится рядом со станцией «Славянский бульвар» Сокольнической линии метро,2020
+construction-2120,ТПУ «Лесопарковая»,POINT (37.57908 55.58183),designed,tpu,https://stroi.mos.ru/construction/2120,появится рядом со станцией метро «Лесопарковая»,2020
+road-22,Рязанский проспект,POINT (37.793514804893 55.717263044201),operation,road,https://stroi.mos.ru/road/trunk/22,,
+construction-2219,"Бабушкинский район, ул. Летчика Бабушкина, вл. 41",POINT (37.677479 55.876041),operation,renov-bld,https://stroi.mos.ru/construction/2219,,2017
+construction-2214,"Район Северное Измайлово, 5-я Парковая ул., д. 62, к. 1, 2",POINT (37.791043 55.807655),operation,renov-bld,https://stroi.mos.ru/construction/2214,,2017
+construction-2226,"Южное Бутово, кв. 2, корп. 24",POINT (37.569058 55.546357),operation,renov-bld,https://stroi.mos.ru/construction/2226,,2017
+construction-2221,"Южное Медведково, мкр. 1-2-3, корп. 39",POINT (37.636145819782 55.871794940516),operation,renov-bld,https://stroi.mos.ru/construction/2221,,2017
+road-46,Верейская улица,POINT (37.620393 55.75396),construction,road,https://stroi.mos.ru/road/regional/46,,
+construction-2233,Кинотеатр «Алмаз»,POINT (37.605804 55.712279),designed,cinema,https://stroi.mos.ru/construction/2233,"ул. Шаболовка,  д. 56",2020
+construction-2238,Кинотеатр «Ашхабад»,POINT (37.597863 55.623941),designed,cinema,https://stroi.mos.ru/construction/2238,"Чертановская ул., д. 17",2020
+construction-2240,Кинотеатр «Мечта»,POINT (37.662075 55.648611),designed,cinema,https://stroi.mos.ru/construction/2240,"Каширское шоссе,  д. 42/1",2020
+metro_station-89,"""Славянский мир""",POINT (37.484806817666 55.613251231675),designed,metro,https://stroi.mos.ru/metro/station/89,"Россия, Москва, поселение Мосрентген, улица Адмирала Корнилова",
+metro_station-15,"""Жулебино""",POINT (37.855123 55.684539),operation,metro,https://stroi.mos.ru/metro/station/15,,
+metro_station-39,"""Пятницкое шоссе""",POINT (37.354025 55.855644),operation,metro,https://stroi.mos.ru/metro/station/39,,
+metro_station-8,"""Верхние Лихоборы""",POINT (37.561589 55.855143),operation,metro,https://stroi.mos.ru/metro/station/8,"Россия, Москва, Люблинско-Дмитровская линия, метро Верхние Лихоборы",
+construction-2276,Стартовые площадки,POINT (37.588745 55.829121),designed,renov-2023,https://stroi.mos.ru/construction/2276,"ул. Академика Комарова, вл. 11-13",2021
+construction-2125,ТПУ «Марьина Роща»,POINT (37.616327 55.793804),designed,tpu,https://stroi.mos.ru/construction/2125,вдоль Шереметьевской улицы,2019
+construction-2252,Кинотеатр «Витязь»,POINT (37.516898 55.647468),designed,cinema,https://stroi.mos.ru/construction/2252,"Улица Миклухо-Маклая, д. 27А",2020
+construction-2245,Кинотеатр «Первомайский»,POINT (37.806407 55.793951),designed,cinema,https://stroi.mos.ru/construction/2245,"Улица Первомайская, д. 93",2020
+construction-2264,Кинотеатр «Орион»,POINT (37.677238 55.869147),designed,cinema,https://stroi.mos.ru/construction/2264,"ул. Летчика Бабушкина, 26",2020
+construction-2170,ТПУ «Юго-Восточная»,POINT (37.82214 55.70407),designed,tpu,https://stroi.mos.ru/construction/2170,"расположен на пересечении Ферганской и Ташкентской улиц, вблизи Самаркандского бульвара",2020
+construction-2106,ТПУ «Аминьевское шоссе»,POINT (37.465372 55.697257),designed,tpu,https://stroi.mos.ru/construction/2106,"Аминьевское шоссе, рядом с одноименной станцией Третьего пересадочного контура",2024
+construction-2118,ТПУ «Кунцевская»,POINT (37.44741 55.73023),designed,tpu,https://stroi.mos.ru/construction/2118,Рублевское шоссе,
+construction-2144,ТПУ «Рижская»,POINT (37.636981 55.792634),designed,tpu,https://stroi.mos.ru/construction/2144,,2010
+construction-2168,ТПУ «Электрозаводская»,POINT (37.705184 55.782097),designed,tpu,https://stroi.mos.ru/construction/2168,,2021
+construction-2327,Храм Сергия Радонежского,POINT (37.405445 55.835916),construction,religion,https://stroi.mos.ru/construction/2327,"ул. Василия Петушкова, напротив вл. 3",2019
+construction-2339,Церковь в честь Введения во храм Пресвятой Богородицы,POINT (37.526893 55.535861),construction,religion,https://stroi.mos.ru/construction/2339,"ул. Южнобутовская, между домами 62 и 66",2018
+metro_station-91,"""Коммунарка""",POINT (37.475495 55.570395),designed,metro,https://stroi.mos.ru/metro/station/91,"Россия, Москва, посёлок Коммунарка",
+construction-2257,Кинотеатр «Киргизия»,POINT (37.82034 55.751771),designed,cinema,https://stroi.mos.ru/construction/2257,"Зеленый проспект, д. 81",2020
+metro_station-65,"""Аминьевское шоссе""",POINT (37.466399774092 55.694631002757),designed,metro,https://stroi.mos.ru/metro/station/65,"Россия, Москва, Аминьевское шоссе",
+metro_station-72,"""Ржевская""",POINT (37.633589 55.792903),designed,metro,https://stroi.mos.ru/metro/station/72,"Россия, Москва, Рижская площадь",
+metro_station-10,"""Воронцовская""",POINT (37.542774971355 55.658187161908),designed,metro,https://stroi.mos.ru/metro/station/10,"Россия, Москва, Хлебобулочный проезд",
+metro_station-27,"""Некрасовка""",POINT (37.929264940899 55.70260618463),construction,metro,https://stroi.mos.ru/metro/station/27,"Россия, Москва, проспект Защитников Москвы",
+metro_station-77,"""Ольховая""",POINT (37.463733089619 55.571740162425),designed,metro,https://stroi.mos.ru/metro/station/77,,
+metro_station-53,"""Улица Народного Ополчения""",POINT (37.475838567081 55.774640452023),construction,metro,https://stroi.mos.ru/metro/station/53,Пересечение проспекта Маршала Жукова и улицы Народного Ополчения,
+metro_station-84,"""Пыхтино""",POINT (37.298748317791 55.620859106815),designed,metro,https://stroi.mos.ru/metro/station/84,,
+metro_station-22,"""Лефортово""",POINT (37.702431535057 55.765071829243),construction,metro,https://stroi.mos.ru/metro/station/22,"Россия, Москва, Солдатская улица",
+metro_station-60,"""Шелепиха""",POINT (37.524341126862 55.75600804158),operation,metro,https://stroi.mos.ru/metro/station/60,"Россия, Москва, Шмитовский проезд",
+metro_station-58,"""Хорошёвская""",POINT (37.52024504952 55.7769599148),operation,metro,https://stroi.mos.ru/metro/station/58,"Россия, Москва, Хорошёвское шоссе",
+construction-2113,ТПУ «Калужская»,POINT (37.538929 55.655743),designed,tpu,https://stroi.mos.ru/construction/2113,"появится рядом с будущей станцией метро «Воронцовская» Третьего пересадочного контура (в границах ул. Архитектора Власова, ул. Академика Челомея, ул. Обручева и ул. Профсоюзная)",2021
+metro_station-34,"""Озерная""",POINT (37.450060380266 55.670951712751),construction,metro,https://stroi.mos.ru/metro/station/34,"Россия, Москва, Мичуринский проспект",
+metro_station-41,"""Рассказовка""",POINT (37.335238259719 55.634402582758),construction,metro,https://stroi.mos.ru/metro/station/41,"Россия, Москва, Боровское шоссе",
+metro_station-46,"""Солнцево""",POINT (37.39058612915 55.64927092683),construction,metro,https://stroi.mos.ru/metro/station/46,"Россия, Москва, улица Богданова",
+construction-2137,ТПУ «Парк Победы»,POINT (37.51792 55.736919),designed,tpu,https://stroi.mos.ru/construction/2137,ул. Барклая,2020
+construction-2132,ТПУ «Некрасовка»,POINT (37.925338 55.704007),designed,tpu,https://stroi.mos.ru/construction/2132,появится на базе одноименной станции метро  Кожуховской линии,2022
+road-34,Солнцево - Бутово - Видное,POINT (37.385179414749 55.610527701345),construction,road,https://stroi.mos.ru/road/trunk/34,,
+metro_station-3,"""Беломорская""",POINT (37.476872302269 55.865957957907),construction,metro,https://stroi.mos.ru/metro/station/3,"Россия, Москва, Беломорская улица",

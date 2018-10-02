@@ -1,0 +1,1958 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="3.0.0-Girona">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+      <srsid>3857</srsid>
+      <srid>3857</srid>
+      <authid>EPSG:3857</authid>
+      <description>WGS 84 / Pseudo Mercator</description>
+      <projectionacronym>merc</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer id="urbica_row_buff_d277bc71_67d5_41a1_97e7_5458bfbad68a" source="dbname='velobike' host=localhost port=5432 user='postgres' sslmode=disable key='tid' srid=4326 type=Polygon table=&quot;public&quot;.&quot;urbica_row_buff&quot; (geom) sql=" providerKey="postgres" checked="Qt::Unchecked" expanded="1" name="urbica_row_buff">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="urbica_row_b13670fe_dada_4c31_8b4d_1d57ccf73cbb" source="file:///D:/MEGA/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/bike_rent/urbica_row.csv?type=csv&amp;wktField=geom&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" providerKey="delimitedtext" checked="Qt::Unchecked" expanded="1" name="urbica_row">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="shop_point_c589430f_3aec_4af7_8ad7_f0702bc45f9b" source="./POI/shop_point.shp" providerKey="ogr" checked="Qt::Checked" expanded="1" name="shop_point">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="amenity_point_c01ebb9c_8592_406f_9387_7f2d24a17218" source="./POI/amenity_point.shp" providerKey="ogr" checked="Qt::Checked" expanded="1" name="amenity_point">
+      <customproperties>
+        <property value="1" key="showFeatureCount"/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer id="urbica_row_added_c98a2369_1c92_4175_9256_a7223d1c31a4" source="file:///D:/MEGA/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/bike_rent/urbica_row_added.csv?encoding=System&amp;type=csv&amp;delimiter=;&amp;wktField=geom&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" providerKey="delimitedtext" checked="Qt::Unchecked" expanded="1" name="urbica_row_added">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="shop_polygon_988f4b06_d11d_47d5_b270_a75fe058214d" source="./POI/shop_polygon.shp" providerKey="ogr" checked="Qt::Checked" expanded="1" name="shop_polygon">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="velobike_6b3557b4_f50e_4ba4_a42a_a4f9930ffdf5" source="file:///D:/MEGA/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/bike_rent/velobike.csv?type=csv&amp;wktField=Geom&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" providerKey="delimitedtext" checked="Qt::Checked" expanded="1" name="velobike">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="2gis_Map_d11d5060_749c_4c43_9fce_5428ca29f429" source="type=xyz&amp;zmin=0&amp;zmax=18&amp;url=http://tile2.maps.2gis.com/tiles?x%3D{x}%26y%3D{y}%26z%3D{z}%26v%3D1.1" providerKey="wms" checked="Qt::Checked" expanded="1" name="2gis Map">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>urbica_row_b13670fe_dada_4c31_8b4d_1d57ccf73cbb</item>
+      <item>2gis_Map_d11d5060_749c_4c43_9fce_5428ca29f429</item>
+      <item>velobike_6b3557b4_f50e_4ba4_a42a_a4f9930ffdf5</item>
+      <item>shop_point_c589430f_3aec_4af7_8ad7_f0702bc45f9b</item>
+      <item>shop_polygon_988f4b06_d11d_47d5_b270_a75fe058214d</item>
+      <item>urbica_row_added_c98a2369_1c92_4175_9256_a7223d1c31a4</item>
+      <item>amenity_point_c01ebb9c_8592_406f_9387_7f2d24a17218</item>
+      <item>urbica_row_buff_d277bc71_67d5_41a1_97e7_5458bfbad68a</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings tolerance="12" mode="2" enabled="0" type="1" unit="0" intersection-snapping="0">
+    <individual-layer-settings>
+      <layer-setting id="velobike_6b3557b4_f50e_4ba4_a42a_a4f9930ffdf5" tolerance="12" units="0" enabled="0" type="0"/>
+      <layer-setting id="urbica_row_b13670fe_dada_4c31_8b4d_1d57ccf73cbb" tolerance="12" units="0" enabled="0" type="0"/>
+      <layer-setting id="amenity_point_c01ebb9c_8592_406f_9387_7f2d24a17218" tolerance="12" units="0" enabled="0" type="0"/>
+      <layer-setting id="urbica_row_buff_d277bc71_67d5_41a1_97e7_5458bfbad68a" tolerance="12" units="0" enabled="0" type="0"/>
+      <layer-setting id="shop_polygon_988f4b06_d11d_47d5_b270_a75fe058214d" tolerance="12" units="0" enabled="0" type="0"/>
+      <layer-setting id="shop_point_c589430f_3aec_4af7_8ad7_f0702bc45f9b" tolerance="12" units="0" enabled="0" type="0"/>
+      <layer-setting id="urbica_row_added_c98a2369_1c92_4175_9256_a7223d1c31a4" tolerance="12" units="0" enabled="0" type="0"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>4186248.30769210588186979</xmin>
+      <ymin>7490583.74383526854217052</ymin>
+      <xmax>4186854.63098348584026098</xmax>
+      <ymax>7491224.28832424245774746</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Unchecked" name="urbica_row_buff">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="0" layerid="urbica_row_buff_d277bc71_67d5_41a1_97e7_5458bfbad68a"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Unchecked" name="urbica_row">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="0" layerid="urbica_row_b13670fe_dada_4c31_8b4d_1d57ccf73cbb"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Checked" name="shop_point">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="1" layerid="shop_point_c589430f_3aec_4af7_8ad7_f0702bc45f9b"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" showFeatureCount="1" open="true" checked="Qt::Checked" name="amenity_point">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="1" layerid="amenity_point_c01ebb9c_8592_406f_9387_7f2d24a17218"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Unchecked" name="urbica_row_added">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="0" layerid="urbica_row_added_c98a2369_1c92_4175_9256_a7223d1c31a4"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Checked" name="shop_polygon">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="1" layerid="shop_polygon_988f4b06_d11d_47d5_b270_a75fe058214d"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Checked" name="velobike">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="1" layerid="velobike_6b3557b4_f50e_4ba4_a42a_a4f9930ffdf5"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Checked" name="2gis Map">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="1" layerid="2gis_Map_d11d5060_749c_4c43_9fce_5428ca29f429"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectlayers>
+    <maplayer hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+8" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" autoRefreshTime="0" autoRefreshEnabled="0" type="raster">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>2gis_Map_d11d5060_749c_4c43_9fce_5428ca29f429</id>
+      <datasource>type=xyz&amp;zmin=0&amp;zmax=18&amp;url=http://tile2.maps.2gis.com/tiles?x%3D{x}%26y%3D{y}%26z%3D{z}%26v%3D1.1</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>2gis Map</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property value="Undefined" key="identify/format"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="По умолчанию">
+        <map-layer-style name="По умолчанию"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer alphaBand="-1" band="1" opacity="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation grayscaleMode="0" colorizeBlue="128" colorizeRed="255" colorizeStrength="100" saturation="0" colorizeOn="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" maxScale="0" simplifyDrawingTol="1" minScale="1e+8" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" labelsEnabled="0" simplifyLocal="1" autoRefreshTime="0" simplifyDrawingHints="0" simplifyAlgorithm="0" autoRefreshEnabled="0" geometry="Point" type="vector" simplifyMaxScale="1" readOnly="0">
+      <extent>
+        <xmin>37.31643940000000015</xmin>
+        <ymin>55.61171389999999803</ymin>
+        <xmax>38.01466440000000091</xmax>
+        <ymax>55.86951299999999776</ymax>
+      </extent>
+      <id>amenity_point_c01ebb9c_8592_406f_9387_7f2d24a17218</id>
+      <datasource>./POI/amenity_point.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>amenity_point</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="По умолчанию">
+        <map-layer-style name="По умолчанию"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="marker" clip_to_extent="1" name="0">
+            <layer class="SimpleMarker" pass="0" enabled="1" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="102,106,153,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="amenity">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="id" name=""/>
+        <alias index="1" field="amenity" name=""/>
+        <alias index="2" field="type" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="id" applyOnUpdate="0" expression=""/>
+        <default field="amenity" applyOnUpdate="0" expression=""/>
+        <default field="type" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="id" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="amenity" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="type" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="amenity" exp=""/>
+        <constraint desc="" field="type" exp=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" maxScale="0" simplifyDrawingTol="1" minScale="1e+8" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" labelsEnabled="0" simplifyLocal="1" autoRefreshTime="0" simplifyDrawingHints="0" simplifyAlgorithm="0" autoRefreshEnabled="0" geometry="Point" type="vector" simplifyMaxScale="1" readOnly="0">
+      <extent>
+        <xmin>36.9814329000000015</xmin>
+        <ymin>55.49618499999999699</ymin>
+        <xmax>38.37720780000000076</xmax>
+        <ymax>56.01141989999999993</ymax>
+      </extent>
+      <id>shop_point_c589430f_3aec_4af7_8ad7_f0702bc45f9b</id>
+      <datasource>./POI/shop_point.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>shop_point</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="По умолчанию">
+        <map-layer-style name="По умолчанию"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="marker" clip_to_extent="1" name="0">
+            <layer class="SimpleMarker" pass="0" enabled="1" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="137,210,148,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="shop">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="id" name=""/>
+        <alias index="1" field="shop" name=""/>
+        <alias index="2" field="type" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="id" applyOnUpdate="0" expression=""/>
+        <default field="shop" applyOnUpdate="0" expression=""/>
+        <default field="type" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="id" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="shop" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="type" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="shop" exp=""/>
+        <constraint desc="" field="type" exp=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" maxScale="0" simplifyDrawingTol="1" minScale="1e+8" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" labelsEnabled="0" simplifyLocal="1" autoRefreshTime="0" simplifyDrawingHints="0" simplifyAlgorithm="0" autoRefreshEnabled="0" geometry="Polygon" type="vector" simplifyMaxScale="1" readOnly="0">
+      <extent>
+        <xmin>36.98204160000000229</xmin>
+        <ymin>55.49593380000000309</ymin>
+        <xmax>38.38276869999999974</xmax>
+        <ymax>56.01153330000000352</ymax>
+      </extent>
+      <id>shop_polygon_988f4b06_d11d_47d5_b270_a75fe058214d</id>
+      <datasource>./POI/shop_polygon.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>shop_polygon</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="По умолчанию">
+        <map-layer-style name="По умолчанию"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="fill" clip_to_extent="1" name="0">
+            <layer class="SimpleFill" pass="0" enabled="1" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="181,184,131,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="shop">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="id" name=""/>
+        <alias index="1" field="shop" name=""/>
+        <alias index="2" field="type" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="id" applyOnUpdate="0" expression=""/>
+        <default field="shop" applyOnUpdate="0" expression=""/>
+        <default field="type" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="id" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="shop" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="type" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="shop" exp=""/>
+        <constraint desc="" field="type" exp=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" maxScale="0" simplifyDrawingTol="1" minScale="1e+8" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" labelsEnabled="0" simplifyLocal="1" autoRefreshTime="0" simplifyDrawingHints="0" simplifyAlgorithm="0" autoRefreshEnabled="0" geometry="Point" type="vector" simplifyMaxScale="1" readOnly="0">
+      <extent>
+        <xmin>37.49513199999999813</xmin>
+        <ymin>55.63376000000000232</ymin>
+        <xmax>37.65930399999999878</xmax>
+        <ymax>55.85600000000000165</ymax>
+      </extent>
+      <id>urbica_row_added_c98a2369_1c92_4175_9256_a7223d1c31a4</id>
+      <datasource>file:./urbica_row_added.csv?encoding=System&amp;type=csv&amp;delimiter=;&amp;wktField=geom&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>urbica_row_added</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="По умолчанию">
+        <map-layer-style name="По умолчанию"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="marker" clip_to_extent="1" name="0">
+            <layer class="SimpleMarker" pass="0" enabled="1" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="135,250,147,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="code">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="arrivals">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="average">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="departures">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dayscount_total">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="slots">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="unique_clients">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="unique_rides">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="roundtrips">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="arr_p_dep">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dep_per_days">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="av_p_dep__per_days">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="code" name=""/>
+        <alias index="1" field="arrivals" name=""/>
+        <alias index="2" field="average" name=""/>
+        <alias index="3" field="departures" name=""/>
+        <alias index="4" field="dayscount_total" name=""/>
+        <alias index="5" field="slots" name=""/>
+        <alias index="6" field="name" name=""/>
+        <alias index="7" field="unique_clients" name=""/>
+        <alias index="8" field="unique_rides" name=""/>
+        <alias index="9" field="roundtrips" name=""/>
+        <alias index="10" field="arr_p_dep" name=""/>
+        <alias index="11" field="dep_per_days" name=""/>
+        <alias index="12" field="av_p_dep__per_days" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="code" applyOnUpdate="0" expression=""/>
+        <default field="arrivals" applyOnUpdate="0" expression=""/>
+        <default field="average" applyOnUpdate="0" expression=""/>
+        <default field="departures" applyOnUpdate="0" expression=""/>
+        <default field="dayscount_total" applyOnUpdate="0" expression=""/>
+        <default field="slots" applyOnUpdate="0" expression=""/>
+        <default field="name" applyOnUpdate="0" expression=""/>
+        <default field="unique_clients" applyOnUpdate="0" expression=""/>
+        <default field="unique_rides" applyOnUpdate="0" expression=""/>
+        <default field="roundtrips" applyOnUpdate="0" expression=""/>
+        <default field="arr_p_dep" applyOnUpdate="0" expression=""/>
+        <default field="dep_per_days" applyOnUpdate="0" expression=""/>
+        <default field="av_p_dep__per_days" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="code" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="arrivals" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="average" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="departures" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="dayscount_total" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="slots" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="name" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="unique_clients" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="unique_rides" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="roundtrips" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="arr_p_dep" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="dep_per_days" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="av_p_dep__per_days" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="code" exp=""/>
+        <constraint desc="" field="arrivals" exp=""/>
+        <constraint desc="" field="average" exp=""/>
+        <constraint desc="" field="departures" exp=""/>
+        <constraint desc="" field="dayscount_total" exp=""/>
+        <constraint desc="" field="slots" exp=""/>
+        <constraint desc="" field="name" exp=""/>
+        <constraint desc="" field="unique_clients" exp=""/>
+        <constraint desc="" field="unique_rides" exp=""/>
+        <constraint desc="" field="roundtrips" exp=""/>
+        <constraint desc="" field="arr_p_dep" exp=""/>
+        <constraint desc="" field="dep_per_days" exp=""/>
+        <constraint desc="" field="av_p_dep__per_days" exp=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" maxScale="0" simplifyDrawingTol="1" minScale="1e+8" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" labelsEnabled="0" simplifyLocal="1" autoRefreshTime="0" simplifyDrawingHints="0" simplifyAlgorithm="0" autoRefreshEnabled="0" geometry="Point" type="vector" simplifyMaxScale="1" readOnly="0">
+      <extent>
+        <xmin>37.49513199999999813</xmin>
+        <ymin>55.63376000000000232</ymin>
+        <xmax>37.65930399999999878</xmax>
+        <ymax>55.85600000000000165</ymax>
+      </extent>
+      <id>urbica_row_b13670fe_dada_4c31_8b4d_1d57ccf73cbb</id>
+      <datasource>file:./urbica_row.csv?type=csv&amp;wktField=geom&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>urbica_row</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxy="0" maxz="0" minz="0" miny="0" dimensions="2" minx="0" maxx="0" crs=""/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="По умолчанию">
+        <map-layer-style name="По умолчанию"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="marker" clip_to_extent="1" name="0">
+            <layer class="SimpleMarker" pass="0" enabled="1" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="230,18,18,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>name</value>
+        </property>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory lineSizeType="MM" opacity="1" minScaleDenominator="0" labelPlacementMethod="XHeight" maxScaleDenominator="1e+8" minimumSize="0" penColor="#000000" lineSizeScale="3x:0,0,0,0,0,0" penAlpha="255" scaleDependency="Area" height="15" barWidth="5" backgroundColor="#ffffff" scaleBasedVisibility="0" width="15" sizeType="MM" rotationOffset="270" sizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" penWidth="0" enabled="0" backgroundAlpha="255">
+          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings priority="0" dist="0" zIndex="0" showAll="1" placement="0" linePlacementFlags="18" obstacle="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <fieldConfiguration>
+        <field name="code">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="arrivals">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="average">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="departures">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dayscount_total">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="slots">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="unique_clients">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="unique_rides">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="roundtrips">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="code" name=""/>
+        <alias index="1" field="arrivals" name=""/>
+        <alias index="2" field="average" name=""/>
+        <alias index="3" field="departures" name=""/>
+        <alias index="4" field="dayscount_total" name=""/>
+        <alias index="5" field="slots" name=""/>
+        <alias index="6" field="name" name=""/>
+        <alias index="7" field="unique_clients" name=""/>
+        <alias index="8" field="unique_rides" name=""/>
+        <alias index="9" field="roundtrips" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="code" applyOnUpdate="0" expression=""/>
+        <default field="arrivals" applyOnUpdate="0" expression=""/>
+        <default field="average" applyOnUpdate="0" expression=""/>
+        <default field="departures" applyOnUpdate="0" expression=""/>
+        <default field="dayscount_total" applyOnUpdate="0" expression=""/>
+        <default field="slots" applyOnUpdate="0" expression=""/>
+        <default field="name" applyOnUpdate="0" expression=""/>
+        <default field="unique_clients" applyOnUpdate="0" expression=""/>
+        <default field="unique_rides" applyOnUpdate="0" expression=""/>
+        <default field="roundtrips" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="code" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="arrivals" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="average" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="departures" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="dayscount_total" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="slots" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="name" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="unique_clients" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="unique_rides" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="roundtrips" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="code" exp=""/>
+        <constraint desc="" field="arrivals" exp=""/>
+        <constraint desc="" field="average" exp=""/>
+        <constraint desc="" field="departures" exp=""/>
+        <constraint desc="" field="dayscount_total" exp=""/>
+        <constraint desc="" field="slots" exp=""/>
+        <constraint desc="" field="name" exp=""/>
+        <constraint desc="" field="unique_clients" exp=""/>
+        <constraint desc="" field="unique_rides" exp=""/>
+        <constraint desc="" field="roundtrips" exp=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="&quot;code&quot;" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column width="-1" type="field" name="code" hidden="0"/>
+          <column width="-1" type="field" name="arrivals" hidden="0"/>
+          <column width="-1" type="field" name="average" hidden="0"/>
+          <column width="-1" type="field" name="departures" hidden="0"/>
+          <column width="-1" type="field" name="dayscount_total" hidden="0"/>
+          <column width="-1" type="field" name="slots" hidden="0"/>
+          <column width="176" type="field" name="name" hidden="0"/>
+          <column width="-1" type="field" name="unique_clients" hidden="0"/>
+          <column width="-1" type="field" name="unique_rides" hidden="0"/>
+          <column width="-1" type="field" name="roundtrips" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="arrivals"/>
+        <field editable="1" name="average"/>
+        <field editable="1" name="code"/>
+        <field editable="1" name="dayscount_total"/>
+        <field editable="1" name="departures"/>
+        <field editable="1" name="name"/>
+        <field editable="1" name="roundtrips"/>
+        <field editable="1" name="slots"/>
+        <field editable="1" name="unique_clients"/>
+        <field editable="1" name="unique_rides"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="arrivals"/>
+        <field labelOnTop="0" name="average"/>
+        <field labelOnTop="0" name="code"/>
+        <field labelOnTop="0" name="dayscount_total"/>
+        <field labelOnTop="0" name="departures"/>
+        <field labelOnTop="0" name="name"/>
+        <field labelOnTop="0" name="roundtrips"/>
+        <field labelOnTop="0" name="slots"/>
+        <field labelOnTop="0" name="unique_clients"/>
+        <field labelOnTop="0" name="unique_rides"/>
+      </labelOnTop>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>name</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" maxScale="0" simplifyDrawingTol="1" minScale="1e+8" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" labelsEnabled="0" simplifyLocal="1" autoRefreshTime="0" simplifyDrawingHints="0" simplifyAlgorithm="0" autoRefreshEnabled="0" geometry="Polygon" type="vector" simplifyMaxScale="1" readOnly="0">
+      <extent>
+        <xmin>37.49110031127929688</xmin>
+        <ymin>55.63083267211909799</ymin>
+        <xmax>37.6633491516112997</xmax>
+        <ymax>55.85892868041990056</ymax>
+      </extent>
+      <id>urbica_row_buff_d277bc71_67d5_41a1_97e7_5458bfbad68a</id>
+      <datasource>dbname='velobike' host=localhost port=5432 user='postgres' password='forever1996' sslmode=disable key='tid' srid=4326 type=Polygon table="public"."urbica_row_buff" (geom) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>urbica_row_buff</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="По умолчанию">
+        <map-layer-style name="По умолчанию"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="fill" clip_to_extent="1" name="0">
+            <layer class="SimpleFill" pass="0" enabled="1" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="96,209,209,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"id"</value>
+        </property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="code">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="arrivals">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="average">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="departures">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dayscount_total">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="slots">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_st">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="unique_clients">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="unique_rides">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="roundtrips">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="id" name=""/>
+        <alias index="1" field="code" name=""/>
+        <alias index="2" field="arrivals" name=""/>
+        <alias index="3" field="average" name=""/>
+        <alias index="4" field="departures" name=""/>
+        <alias index="5" field="dayscount_total" name=""/>
+        <alias index="6" field="slots" name=""/>
+        <alias index="7" field="name_st" name=""/>
+        <alias index="8" field="unique_clients" name=""/>
+        <alias index="9" field="unique_rides" name=""/>
+        <alias index="10" field="roundtrips" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="id" applyOnUpdate="0" expression=""/>
+        <default field="code" applyOnUpdate="0" expression=""/>
+        <default field="arrivals" applyOnUpdate="0" expression=""/>
+        <default field="average" applyOnUpdate="0" expression=""/>
+        <default field="departures" applyOnUpdate="0" expression=""/>
+        <default field="dayscount_total" applyOnUpdate="0" expression=""/>
+        <default field="slots" applyOnUpdate="0" expression=""/>
+        <default field="name_st" applyOnUpdate="0" expression=""/>
+        <default field="unique_clients" applyOnUpdate="0" expression=""/>
+        <default field="unique_rides" applyOnUpdate="0" expression=""/>
+        <default field="roundtrips" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="id" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="code" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="arrivals" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="average" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="departures" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="dayscount_total" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="slots" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="name_st" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="unique_clients" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="unique_rides" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="roundtrips" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="code" exp=""/>
+        <constraint desc="" field="arrivals" exp=""/>
+        <constraint desc="" field="average" exp=""/>
+        <constraint desc="" field="departures" exp=""/>
+        <constraint desc="" field="dayscount_total" exp=""/>
+        <constraint desc="" field="slots" exp=""/>
+        <constraint desc="" field="name_st" exp=""/>
+        <constraint desc="" field="unique_clients" exp=""/>
+        <constraint desc="" field="unique_rides" exp=""/>
+        <constraint desc="" field="roundtrips" exp=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column width="-1" type="field" name="id" hidden="0"/>
+          <column width="-1" type="field" name="code" hidden="0"/>
+          <column width="-1" type="field" name="arrivals" hidden="0"/>
+          <column width="-1" type="field" name="average" hidden="0"/>
+          <column width="-1" type="field" name="departures" hidden="0"/>
+          <column width="-1" type="field" name="dayscount_total" hidden="0"/>
+          <column width="-1" type="field" name="slots" hidden="0"/>
+          <column width="-1" type="field" name="name_st" hidden="0"/>
+          <column width="-1" type="field" name="unique_clients" hidden="0"/>
+          <column width="-1" type="field" name="unique_rides" hidden="0"/>
+          <column width="-1" type="field" name="roundtrips" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>"id"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" maxScale="0" simplifyDrawingTol="1" minScale="1e+8" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" labelsEnabled="0" simplifyLocal="1" autoRefreshTime="0" simplifyDrawingHints="0" simplifyAlgorithm="0" autoRefreshEnabled="0" geometry="Point" type="vector" simplifyMaxScale="1" readOnly="0">
+      <extent>
+        <xmin>37.48127999999999815</xmin>
+        <ymin>55.63374979999999681</ymin>
+        <xmax>37.71885929999999831</xmax>
+        <ymax>55.88185279999999722</ymax>
+      </extent>
+      <id>velobike_6b3557b4_f50e_4ba4_a42a_a4f9930ffdf5</id>
+      <datasource>file:./velobike.csv?type=csv&amp;wktField=Geom&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>velobike</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="По умолчанию">
+        <map-layer-style name="По умолчанию"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="marker" clip_to_extent="1" name="0">
+            <layer class="SimpleMarker" pass="0" enabled="1" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="131,102,188,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="Address">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="IsLocked">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TotalPlaces">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TotalOrdinaryPlaces">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TotalElectricPlaces">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FreeOrdinaryPlaces">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FreeElectricPlaces">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="Address" name=""/>
+        <alias index="1" field="Id" name=""/>
+        <alias index="2" field="IsLocked" name=""/>
+        <alias index="3" field="TotalPlaces" name=""/>
+        <alias index="4" field="TotalOrdinaryPlaces" name=""/>
+        <alias index="5" field="TotalElectricPlaces" name=""/>
+        <alias index="6" field="FreeOrdinaryPlaces" name=""/>
+        <alias index="7" field="FreeElectricPlaces" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="Address" applyOnUpdate="0" expression=""/>
+        <default field="Id" applyOnUpdate="0" expression=""/>
+        <default field="IsLocked" applyOnUpdate="0" expression=""/>
+        <default field="TotalPlaces" applyOnUpdate="0" expression=""/>
+        <default field="TotalOrdinaryPlaces" applyOnUpdate="0" expression=""/>
+        <default field="TotalElectricPlaces" applyOnUpdate="0" expression=""/>
+        <default field="FreeOrdinaryPlaces" applyOnUpdate="0" expression=""/>
+        <default field="FreeElectricPlaces" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="Address" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="Id" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="IsLocked" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="TotalPlaces" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="TotalOrdinaryPlaces" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="TotalElectricPlaces" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="FreeOrdinaryPlaces" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="FreeElectricPlaces" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="Address" exp=""/>
+        <constraint desc="" field="Id" exp=""/>
+        <constraint desc="" field="IsLocked" exp=""/>
+        <constraint desc="" field="TotalPlaces" exp=""/>
+        <constraint desc="" field="TotalOrdinaryPlaces" exp=""/>
+        <constraint desc="" field="TotalElectricPlaces" exp=""/>
+        <constraint desc="" field="FreeOrdinaryPlaces" exp=""/>
+        <constraint desc="" field="FreeElectricPlaces" exp=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="urbica_row_b13670fe_dada_4c31_8b4d_1d57ccf73cbb"/>
+    <layer id="2gis_Map_d11d5060_749c_4c43_9fce_5428ca29f429"/>
+    <layer id="velobike_6b3557b4_f50e_4ba4_a42a_a4f9930ffdf5"/>
+    <layer id="shop_point_c589430f_3aec_4af7_8ad7_f0702bc45f9b"/>
+    <layer id="shop_polygon_988f4b06_d11d_47d5_b270_a75fe058214d"/>
+    <layer id="urbica_row_added_c98a2369_1c92_4175_9256_a7223d1c31a4"/>
+    <layer id="amenity_point_c01ebb9c_8592_406f_9387_7f2d24a17218"/>
+    <layer id="urbica_row_buff_d277bc71_67d5_41a1_97e7_5458bfbad68a"/>
+  </layerorder>
+  <properties>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSUrl type="QString"></WMSUrl>
+    <WFSTLayers>
+      <Insert type="QStringList"/>
+      <Delete type="QStringList"/>
+      <Update type="QStringList"/>
+    </WFSTLayers>
+    <WCSUrl type="QString"></WCSUrl>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WFSLayers type="QStringList"/>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <DefaultStyles>
+      <RandomColors type="bool">true</RandomColors>
+      <Fill type="QString"></Fill>
+      <Marker type="QString"></Marker>
+      <Line type="QString"></Line>
+      <ColorRamp type="QString"></ColorRamp>
+      <Opacity type="double">1</Opacity>
+    </DefaultStyles>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WCSLayers type="QStringList"/>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <Annotations/>
+  <Layouts/>
+</qgis>

@@ -1,0 +1,1362 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.0.0-Girona" projectname="">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+      <srsid>3857</srsid>
+      <srid>3857</srid>
+      <authid>EPSG:3857</authid>
+      <description>WGS 84 / Pseudo Mercator</description>
+      <projectionacronym>merc</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer id="dogs_ef300e74_dd58_42bd_95c1_15e45ccf6a5d" checked="Qt::Checked" name="dogs" expanded="1" providerKey="delimitedtext" source="file:///D:/Temp/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/%D0%A0%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2%20%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8/dogs/dogs.csv?encoding=System&amp;type=csv&amp;xField=geometry/coordinates/0&amp;yField=geometry/coordinates/1&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="sports_4742938b_c918_4576_a04e_f532bdee4305" checked="Qt::Checked" name="sports" expanded="1" providerKey="ogr" source="D:/Temp/Практика/Рейтинг объектов недвижимости/Sport_leisure/source_datamos/sports.dbf">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="2гис_bbb7ef13_05e4_4d92_aafb_1e74d852eab5" checked="Qt::Checked" name="2гис" expanded="1" providerKey="wms" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile2.maps.2gis.com/tiles?x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D%26v%3D1.1&amp;zmax=18&amp;zmin=0">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>2гис_bbb7ef13_05e4_4d92_aafb_1e74d852eab5</item>
+      <item>sports_4742938b_c918_4576_a04e_f532bdee4305</item>
+      <item>dogs_ef300e74_dd58_42bd_95c1_15e45ccf6a5d</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings unit="0" intersection-snapping="0" tolerance="12" type="1" enabled="0" mode="2">
+    <individual-layer-settings>
+      <layer-setting id="sports_4742938b_c918_4576_a04e_f532bdee4305" tolerance="12" type="0" enabled="0" units="0"/>
+      <layer-setting id="dogs_ef300e74_dd58_42bd_95c1_15e45ccf6a5d" tolerance="12" type="0" enabled="0" units="0"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>meters</units>
+    <extent>
+      <xmin>4170159.15080717951059341</xmin>
+      <ymin>7524736.06977758277207613</ymin>
+      <xmax>4181813.06300876289606094</xmax>
+      <ymax>7536134.02854022849351168</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer showFeatureCount="0" checked="Qt::Checked" name="dogs" drawingOrder="-1" open="true">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="dogs_ef300e74_dd58_42bd_95c1_15e45ccf6a5d" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" checked="Qt::Checked" name="sports" drawingOrder="-1" open="true">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="sports_4742938b_c918_4576_a04e_f532bdee4305" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" checked="Qt::Checked" name="2гис" drawingOrder="-1" open="true">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="2гис_bbb7ef13_05e4_4d92_aafb_1e74d852eab5" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer autoRefreshTime="0" minScale="1e+8" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" maxScale="0" refreshOnNotifyEnabled="0" type="raster" autoRefreshEnabled="0">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>2гис_bbb7ef13_05e4_4d92_aafb_1e74d852eab5</id>
+      <datasource>crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile2.maps.2gis.com/tiles?x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D%26v%3D1.1&amp;zmax=18&amp;zmin=0</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>2гис</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="По умолчанию">
+        <map-layer-style name="По умолчанию"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer type="singlebandcolordata" opacity="1" alphaBand="-1" band="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeRed="255" colorizeStrength="100" grayscaleMode="0" colorizeBlue="128" colorizeGreen="128" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshTime="0" minScale="1e+8" refreshOnNotifyMessage="" simplifyDrawingHints="0" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" maxScale="0" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" readOnly="0" type="vector" simplifyMaxScale="1" autoRefreshEnabled="0" simplifyDrawingTol="1" geometry="Point" simplifyLocal="1">
+      <extent>
+        <xmin>37.07002399999999653</xmin>
+        <ymin>55.21211699999999922</ymin>
+        <xmax>37.91636299999999693</xmax>
+        <ymax>56.01258899999999841</ymax>
+      </extent>
+      <id>dogs_ef300e74_dd58_42bd_95c1_15e45ccf6a5d</id>
+      <datasource>file:///D:/Temp/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/%D0%A0%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2%20%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8/dogs/dogs.csv?encoding=System&amp;type=csv&amp;xField=geometry/coordinates/0&amp;yField=geometry/coordinates/1&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>dogs</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="По умолчанию">
+        <map-layer-style name="По умолчанию"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" symbollevels="0" forceraster="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" type="marker" name="0" alpha="1">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="32,7,153,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="geometry/coordinates/0">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="geometry/coordinates/1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="geometry/type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/DatasetId">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/VersionNumber">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/ReleaseNumber">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/RowId">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/DepartamentalAffiliation">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/global_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Photo/0/Photo/0">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Photo/1/Photo/0">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/AdmArea">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/District">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Location">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/DogParkArea">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/0">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/5">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/6">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/7">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/8">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/9">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Lighting">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Fencing">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/WorkingHours/0/DayOfWeek">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/WorkingHours/0/Hours">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/WorkingHours/1/DayOfWeek">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/WorkingHours/1/Hours">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/WorkingHours/2/DayOfWeek">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/WorkingHours/2/Hours">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/WorkingHours/3/DayOfWeek">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/WorkingHours/3/Hours">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/WorkingHours/4/DayOfWeek">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/WorkingHours/4/Hours">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/WorkingHours/5/DayOfWeek">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/WorkingHours/5/Hours">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/WorkingHours/6/DayOfWeek">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/WorkingHours/6/Hours">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Photo/2/Photo/0">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Photo/3/Photo/0">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/10">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/11">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/12">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/13">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/14">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/15">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/16">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/17">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/18">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Elements/19">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Photo/4/Photo/0">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Photo/5/Photo/0">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Photo/6/Photo/0">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="properties/Attributes/Photo/7/Photo/0">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="geometry/coordinates/0" name=""/>
+        <alias index="1" field="geometry/coordinates/1" name=""/>
+        <alias index="2" field="geometry/type" name=""/>
+        <alias index="3" field="properties/DatasetId" name=""/>
+        <alias index="4" field="properties/VersionNumber" name=""/>
+        <alias index="5" field="properties/ReleaseNumber" name=""/>
+        <alias index="6" field="properties/RowId" name=""/>
+        <alias index="7" field="properties/Attributes/DepartamentalAffiliation" name=""/>
+        <alias index="8" field="properties/Attributes/global_id" name=""/>
+        <alias index="9" field="properties/Attributes/Photo/0/Photo/0" name=""/>
+        <alias index="10" field="properties/Attributes/Photo/1/Photo/0" name=""/>
+        <alias index="11" field="properties/Attributes/AdmArea" name=""/>
+        <alias index="12" field="properties/Attributes/District" name=""/>
+        <alias index="13" field="properties/Attributes/Location" name=""/>
+        <alias index="14" field="properties/Attributes/DogParkArea" name=""/>
+        <alias index="15" field="properties/Attributes/Elements/0" name=""/>
+        <alias index="16" field="properties/Attributes/Elements/1" name=""/>
+        <alias index="17" field="properties/Attributes/Elements/2" name=""/>
+        <alias index="18" field="properties/Attributes/Elements/3" name=""/>
+        <alias index="19" field="properties/Attributes/Elements/4" name=""/>
+        <alias index="20" field="properties/Attributes/Elements/5" name=""/>
+        <alias index="21" field="properties/Attributes/Elements/6" name=""/>
+        <alias index="22" field="properties/Attributes/Elements/7" name=""/>
+        <alias index="23" field="properties/Attributes/Elements/8" name=""/>
+        <alias index="24" field="properties/Attributes/Elements/9" name=""/>
+        <alias index="25" field="properties/Attributes/Lighting" name=""/>
+        <alias index="26" field="properties/Attributes/Fencing" name=""/>
+        <alias index="27" field="properties/Attributes/WorkingHours/0/DayOfWeek" name=""/>
+        <alias index="28" field="properties/Attributes/WorkingHours/0/Hours" name=""/>
+        <alias index="29" field="properties/Attributes/WorkingHours/1/DayOfWeek" name=""/>
+        <alias index="30" field="properties/Attributes/WorkingHours/1/Hours" name=""/>
+        <alias index="31" field="properties/Attributes/WorkingHours/2/DayOfWeek" name=""/>
+        <alias index="32" field="properties/Attributes/WorkingHours/2/Hours" name=""/>
+        <alias index="33" field="properties/Attributes/WorkingHours/3/DayOfWeek" name=""/>
+        <alias index="34" field="properties/Attributes/WorkingHours/3/Hours" name=""/>
+        <alias index="35" field="properties/Attributes/WorkingHours/4/DayOfWeek" name=""/>
+        <alias index="36" field="properties/Attributes/WorkingHours/4/Hours" name=""/>
+        <alias index="37" field="properties/Attributes/WorkingHours/5/DayOfWeek" name=""/>
+        <alias index="38" field="properties/Attributes/WorkingHours/5/Hours" name=""/>
+        <alias index="39" field="properties/Attributes/WorkingHours/6/DayOfWeek" name=""/>
+        <alias index="40" field="properties/Attributes/WorkingHours/6/Hours" name=""/>
+        <alias index="41" field="type" name=""/>
+        <alias index="42" field="properties/Attributes/Photo/2/Photo/0" name=""/>
+        <alias index="43" field="properties/Attributes/Photo/3/Photo/0" name=""/>
+        <alias index="44" field="properties/Attributes/Elements/10" name=""/>
+        <alias index="45" field="properties/Attributes/Elements/11" name=""/>
+        <alias index="46" field="properties/Attributes/Elements/12" name=""/>
+        <alias index="47" field="properties/Attributes/Elements/13" name=""/>
+        <alias index="48" field="properties/Attributes/Elements/14" name=""/>
+        <alias index="49" field="properties/Attributes/Elements/15" name=""/>
+        <alias index="50" field="properties/Attributes/Elements/16" name=""/>
+        <alias index="51" field="properties/Attributes/Elements/17" name=""/>
+        <alias index="52" field="properties/Attributes/Elements/18" name=""/>
+        <alias index="53" field="properties/Attributes/Elements/19" name=""/>
+        <alias index="54" field="properties/Attributes/Photo/4/Photo/0" name=""/>
+        <alias index="55" field="properties/Attributes/Photo/5/Photo/0" name=""/>
+        <alias index="56" field="properties/Attributes/Photo/6/Photo/0" name=""/>
+        <alias index="57" field="properties/Attributes/Photo/7/Photo/0" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="geometry/coordinates/0" expression=""/>
+        <default applyOnUpdate="0" field="geometry/coordinates/1" expression=""/>
+        <default applyOnUpdate="0" field="geometry/type" expression=""/>
+        <default applyOnUpdate="0" field="properties/DatasetId" expression=""/>
+        <default applyOnUpdate="0" field="properties/VersionNumber" expression=""/>
+        <default applyOnUpdate="0" field="properties/ReleaseNumber" expression=""/>
+        <default applyOnUpdate="0" field="properties/RowId" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/DepartamentalAffiliation" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/global_id" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Photo/0/Photo/0" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Photo/1/Photo/0" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/AdmArea" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/District" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Location" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/DogParkArea" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/0" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/1" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/2" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/3" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/4" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/5" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/6" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/7" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/8" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/9" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Lighting" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Fencing" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/WorkingHours/0/DayOfWeek" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/WorkingHours/0/Hours" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/WorkingHours/1/DayOfWeek" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/WorkingHours/1/Hours" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/WorkingHours/2/DayOfWeek" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/WorkingHours/2/Hours" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/WorkingHours/3/DayOfWeek" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/WorkingHours/3/Hours" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/WorkingHours/4/DayOfWeek" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/WorkingHours/4/Hours" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/WorkingHours/5/DayOfWeek" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/WorkingHours/5/Hours" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/WorkingHours/6/DayOfWeek" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/WorkingHours/6/Hours" expression=""/>
+        <default applyOnUpdate="0" field="type" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Photo/2/Photo/0" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Photo/3/Photo/0" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/10" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/11" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/12" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/13" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/14" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/15" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/16" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/17" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/18" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Elements/19" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Photo/4/Photo/0" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Photo/5/Photo/0" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Photo/6/Photo/0" expression=""/>
+        <default applyOnUpdate="0" field="properties/Attributes/Photo/7/Photo/0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" field="geometry/coordinates/0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="geometry/coordinates/1" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="geometry/type" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/DatasetId" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/VersionNumber" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/ReleaseNumber" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/RowId" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/DepartamentalAffiliation" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/global_id" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Photo/0/Photo/0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Photo/1/Photo/0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/AdmArea" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/District" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Location" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/DogParkArea" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/1" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/2" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/3" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/4" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/5" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/6" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/7" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/8" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/9" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Lighting" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Fencing" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/WorkingHours/0/DayOfWeek" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/WorkingHours/0/Hours" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/WorkingHours/1/DayOfWeek" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/WorkingHours/1/Hours" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/WorkingHours/2/DayOfWeek" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/WorkingHours/2/Hours" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/WorkingHours/3/DayOfWeek" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/WorkingHours/3/Hours" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/WorkingHours/4/DayOfWeek" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/WorkingHours/4/Hours" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/WorkingHours/5/DayOfWeek" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/WorkingHours/5/Hours" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/WorkingHours/6/DayOfWeek" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/WorkingHours/6/Hours" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="type" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Photo/2/Photo/0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Photo/3/Photo/0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/10" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/11" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/12" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/13" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/14" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/15" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/16" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/17" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/18" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Elements/19" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Photo/4/Photo/0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Photo/5/Photo/0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Photo/6/Photo/0" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="properties/Attributes/Photo/7/Photo/0" exp_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="geometry/coordinates/0" exp=""/>
+        <constraint desc="" field="geometry/coordinates/1" exp=""/>
+        <constraint desc="" field="geometry/type" exp=""/>
+        <constraint desc="" field="properties/DatasetId" exp=""/>
+        <constraint desc="" field="properties/VersionNumber" exp=""/>
+        <constraint desc="" field="properties/ReleaseNumber" exp=""/>
+        <constraint desc="" field="properties/RowId" exp=""/>
+        <constraint desc="" field="properties/Attributes/DepartamentalAffiliation" exp=""/>
+        <constraint desc="" field="properties/Attributes/global_id" exp=""/>
+        <constraint desc="" field="properties/Attributes/Photo/0/Photo/0" exp=""/>
+        <constraint desc="" field="properties/Attributes/Photo/1/Photo/0" exp=""/>
+        <constraint desc="" field="properties/Attributes/AdmArea" exp=""/>
+        <constraint desc="" field="properties/Attributes/District" exp=""/>
+        <constraint desc="" field="properties/Attributes/Location" exp=""/>
+        <constraint desc="" field="properties/Attributes/DogParkArea" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/0" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/1" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/2" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/3" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/4" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/5" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/6" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/7" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/8" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/9" exp=""/>
+        <constraint desc="" field="properties/Attributes/Lighting" exp=""/>
+        <constraint desc="" field="properties/Attributes/Fencing" exp=""/>
+        <constraint desc="" field="properties/Attributes/WorkingHours/0/DayOfWeek" exp=""/>
+        <constraint desc="" field="properties/Attributes/WorkingHours/0/Hours" exp=""/>
+        <constraint desc="" field="properties/Attributes/WorkingHours/1/DayOfWeek" exp=""/>
+        <constraint desc="" field="properties/Attributes/WorkingHours/1/Hours" exp=""/>
+        <constraint desc="" field="properties/Attributes/WorkingHours/2/DayOfWeek" exp=""/>
+        <constraint desc="" field="properties/Attributes/WorkingHours/2/Hours" exp=""/>
+        <constraint desc="" field="properties/Attributes/WorkingHours/3/DayOfWeek" exp=""/>
+        <constraint desc="" field="properties/Attributes/WorkingHours/3/Hours" exp=""/>
+        <constraint desc="" field="properties/Attributes/WorkingHours/4/DayOfWeek" exp=""/>
+        <constraint desc="" field="properties/Attributes/WorkingHours/4/Hours" exp=""/>
+        <constraint desc="" field="properties/Attributes/WorkingHours/5/DayOfWeek" exp=""/>
+        <constraint desc="" field="properties/Attributes/WorkingHours/5/Hours" exp=""/>
+        <constraint desc="" field="properties/Attributes/WorkingHours/6/DayOfWeek" exp=""/>
+        <constraint desc="" field="properties/Attributes/WorkingHours/6/Hours" exp=""/>
+        <constraint desc="" field="type" exp=""/>
+        <constraint desc="" field="properties/Attributes/Photo/2/Photo/0" exp=""/>
+        <constraint desc="" field="properties/Attributes/Photo/3/Photo/0" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/10" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/11" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/12" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/13" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/14" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/15" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/16" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/17" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/18" exp=""/>
+        <constraint desc="" field="properties/Attributes/Elements/19" exp=""/>
+        <constraint desc="" field="properties/Attributes/Photo/4/Photo/0" exp=""/>
+        <constraint desc="" field="properties/Attributes/Photo/5/Photo/0" exp=""/>
+        <constraint desc="" field="properties/Attributes/Photo/6/Photo/0" exp=""/>
+        <constraint desc="" field="properties/Attributes/Photo/7/Photo/0" exp=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" minScale="1e+8" refreshOnNotifyMessage="" simplifyDrawingHints="0" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" maxScale="0" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" readOnly="0" type="vector" simplifyMaxScale="1" autoRefreshEnabled="0" simplifyDrawingTol="1" geometry="Point" simplifyLocal="1">
+      <extent>
+        <xmin>37.15502099999999785</xmin>
+        <ymin>55.48775899999999695</ymin>
+        <xmax>37.92681699999999978</xmax>
+        <ymax>56.00849000000000188</ymax>
+      </extent>
+      <id>sports_4742938b_c918_4576_a04e_f532bdee4305</id>
+      <datasource>D:/Temp/Практика/Рейтинг объектов недвижимости/Sport_leisure/source_datamos/sports.dbf</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>sports</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="По умолчанию">
+        <map-layer-style name="По умолчанию"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" symbollevels="0" forceraster="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" type="marker" name="0" alpha="1">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="49,203,230,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FullName">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="global_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ShortName">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RegisterNu">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LegalAddre">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="country">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="city">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="street">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="house">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ChiefPosit">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ChiefName">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WebSite">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Email">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="INN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OGRN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="settlement">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="building_n">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="geocoded">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="ID" name=""/>
+        <alias index="1" field="FullName" name=""/>
+        <alias index="2" field="global_id" name=""/>
+        <alias index="3" field="ShortName" name=""/>
+        <alias index="4" field="RegisterNu" name=""/>
+        <alias index="5" field="LegalAddre" name=""/>
+        <alias index="6" field="country" name=""/>
+        <alias index="7" field="city" name=""/>
+        <alias index="8" field="street" name=""/>
+        <alias index="9" field="house" name=""/>
+        <alias index="10" field="ChiefPosit" name=""/>
+        <alias index="11" field="ChiefName" name=""/>
+        <alias index="12" field="WebSite" name=""/>
+        <alias index="13" field="Email" name=""/>
+        <alias index="14" field="INN" name=""/>
+        <alias index="15" field="OGRN" name=""/>
+        <alias index="16" field="settlement" name=""/>
+        <alias index="17" field="building_n" name=""/>
+        <alias index="18" field="geocoded" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="ID" expression=""/>
+        <default applyOnUpdate="0" field="FullName" expression=""/>
+        <default applyOnUpdate="0" field="global_id" expression=""/>
+        <default applyOnUpdate="0" field="ShortName" expression=""/>
+        <default applyOnUpdate="0" field="RegisterNu" expression=""/>
+        <default applyOnUpdate="0" field="LegalAddre" expression=""/>
+        <default applyOnUpdate="0" field="country" expression=""/>
+        <default applyOnUpdate="0" field="city" expression=""/>
+        <default applyOnUpdate="0" field="street" expression=""/>
+        <default applyOnUpdate="0" field="house" expression=""/>
+        <default applyOnUpdate="0" field="ChiefPosit" expression=""/>
+        <default applyOnUpdate="0" field="ChiefName" expression=""/>
+        <default applyOnUpdate="0" field="WebSite" expression=""/>
+        <default applyOnUpdate="0" field="Email" expression=""/>
+        <default applyOnUpdate="0" field="INN" expression=""/>
+        <default applyOnUpdate="0" field="OGRN" expression=""/>
+        <default applyOnUpdate="0" field="settlement" expression=""/>
+        <default applyOnUpdate="0" field="building_n" expression=""/>
+        <default applyOnUpdate="0" field="geocoded" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" field="ID" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="FullName" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="global_id" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="ShortName" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="RegisterNu" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="LegalAddre" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="country" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="city" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="street" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="house" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="ChiefPosit" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="ChiefName" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="WebSite" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="Email" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="INN" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="OGRN" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="settlement" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="building_n" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="geocoded" exp_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="ID" exp=""/>
+        <constraint desc="" field="FullName" exp=""/>
+        <constraint desc="" field="global_id" exp=""/>
+        <constraint desc="" field="ShortName" exp=""/>
+        <constraint desc="" field="RegisterNu" exp=""/>
+        <constraint desc="" field="LegalAddre" exp=""/>
+        <constraint desc="" field="country" exp=""/>
+        <constraint desc="" field="city" exp=""/>
+        <constraint desc="" field="street" exp=""/>
+        <constraint desc="" field="house" exp=""/>
+        <constraint desc="" field="ChiefPosit" exp=""/>
+        <constraint desc="" field="ChiefName" exp=""/>
+        <constraint desc="" field="WebSite" exp=""/>
+        <constraint desc="" field="Email" exp=""/>
+        <constraint desc="" field="INN" exp=""/>
+        <constraint desc="" field="OGRN" exp=""/>
+        <constraint desc="" field="settlement" exp=""/>
+        <constraint desc="" field="building_n" exp=""/>
+        <constraint desc="" field="geocoded" exp=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="2гис_bbb7ef13_05e4_4d92_aafb_1e74d852eab5"/>
+    <layer id="sports_4742938b_c918_4576_a04e_f532bdee4305"/>
+    <layer id="dogs_ef300e74_dd58_42bd_95c1_15e45ccf6a5d"/>
+  </layerorder>
+  <properties>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSUrl type="QString"></WMSUrl>
+    <WFSTLayers>
+      <Update type="QStringList"/>
+      <Delete type="QStringList"/>
+      <Insert type="QStringList"/>
+    </WFSTLayers>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <WCSLayers type="QStringList"/>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <PositionPrecision>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <Gui>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <WCSUrl type="QString"></WCSUrl>
+    <WFSLayers type="QStringList"/>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <DefaultStyles>
+      <Opacity type="double">1</Opacity>
+      <Line type="QString"></Line>
+      <Marker type="QString"></Marker>
+      <RandomColors type="bool">true</RandomColors>
+      <Fill type="QString"></Fill>
+      <ColorRamp type="QString"></ColorRamp>
+    </DefaultStyles>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">true</Absolute>
+    </Paths>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <Annotations/>
+  <Layouts/>
+</qgis>

@@ -1,0 +1,811 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.23">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="dogs_ef300e74_dd58_42bd_95c1_15e45ccf6a5d" source="file:///D:/MEGA/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/%D0%A0%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2%20%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8/dogs/dogs.csv????????%5C???????%20????????%20????????????%5Cdogs%5Cdogs.csv?encoding=System&amp;type=csv&amp;xField=geometry/coordinates/0&amp;yField=geometry/coordinates/1&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" name="dogs">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="sports_4742938b_c918_4576_a04e_f532bdee4305" source="D:\MEGA\Практика\Рейтинг объектов недвижимости\Sport_leisure\source_datamos\sports.dbf" name="sports">
+      <customproperties>
+        <property key="showFeatureCount" value="1"/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="2гис_bbb7ef13_05e4_4d92_aafb_1e74d852eab5" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile2.maps.2gis.com/tiles?x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D%26v%3D1.1&amp;zmax=18&amp;zmin=0" name="2гис">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>meters</units>
+    <extent>
+      <xmin>37.13572609999999941</xmin>
+      <ymin>55.47474072500000375</ymin>
+      <xmax>37.94611190000000533</xmax>
+      <ymax>56.02150827500000219</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>0</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info/>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>dogs_ef300e74_dd58_42bd_95c1_15e45ccf6a5d</item>
+      <item>sports_4742938b_c918_4576_a04e_f532bdee4305</item>
+      <item>2гис_bbb7ef13_05e4_4d92_aafb_1e74d852eab5</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="dogs" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="dogs_ef300e74_dd58_42bd_95c1_15e45ccf6a5d" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="sports" showFeatureCount="1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="sports_4742938b_c918_4576_a04e_f532bdee4305" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="2гис" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="2гис_bbb7ef13_05e4_4d92_aafb_1e74d852eab5" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer minimumScale="0" maximumScale="0" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>2гис_bbb7ef13_05e4_4d92_aafb_1e74d852eab5</id>
+      <datasource>crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile2.maps.2gis.com/tiles?x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D%26v%3D1.1&amp;zmax=18&amp;zmin=0</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>2гис</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="По умолчанию">
+        <map-layer-style name="По умолчанию"/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="0" simplifyDrawingHints="0" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>37.07002399999999653</xmin>
+        <ymin>55.21211699999999922</ymin>
+        <xmax>37.91636299999999693</xmax>
+        <ymax>56.01258899999999841</ymax>
+      </extent>
+      <id>dogs_ef300e74_dd58_42bd_95c1_15e45ccf6a5d</id>
+      <datasource>file:///D:/MEGA/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/%D0%A0%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2%20%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8/dogs/dogs.csv????????%5C???????%20????????%20????????????%5Cdogs%5Cdogs.csv?encoding=System&amp;type=csv&amp;xField=geometry/coordinates/0&amp;yField=geometry/coordinates/1&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>dogs</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="По умолчанию">
+        <map-layer-style name="По умолчанию"/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="geometry/coordinates/0">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="geometry/coordinates/1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="geometry/type">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/DatasetId">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/VersionNumber">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/ReleaseNumber">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/RowId">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/DepartamentalAffiliation">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/global_id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Photo/0/Photo/0">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Photo/1/Photo/0">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/AdmArea">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/District">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Location">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/DogParkArea">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/0">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/2">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/3">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/4">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/5">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/6">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/7">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/8">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/9">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Lighting">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Fencing">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/WorkingHours/0/DayOfWeek">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/WorkingHours/0/Hours">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/WorkingHours/1/DayOfWeek">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/WorkingHours/1/Hours">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/WorkingHours/2/DayOfWeek">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/WorkingHours/2/Hours">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/WorkingHours/3/DayOfWeek">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/WorkingHours/3/Hours">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/WorkingHours/4/DayOfWeek">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/WorkingHours/4/Hours">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/WorkingHours/5/DayOfWeek">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/WorkingHours/5/Hours">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/WorkingHours/6/DayOfWeek">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/WorkingHours/6/Hours">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="type">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Photo/2/Photo/0">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Photo/3/Photo/0">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/10">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/11">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/12">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/13">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/14">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/15">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/16">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/17">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/18">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Elements/19">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Photo/4/Photo/0">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Photo/5/Photo/0">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Photo/6/Photo/0">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="properties/Attributes/Photo/7/Photo/0">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="32,7,153,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>properties/DatasetId</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Подпись"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="geometry/coordinates/0" index="0" name=""/>
+        <alias field="geometry/coordinates/1" index="1" name=""/>
+        <alias field="geometry/type" index="2" name=""/>
+        <alias field="properties/DatasetId" index="3" name=""/>
+        <alias field="properties/VersionNumber" index="4" name=""/>
+        <alias field="properties/ReleaseNumber" index="5" name=""/>
+        <alias field="properties/RowId" index="6" name=""/>
+        <alias field="properties/Attributes/DepartamentalAffiliation" index="7" name=""/>
+        <alias field="properties/Attributes/global_id" index="8" name=""/>
+        <alias field="properties/Attributes/Photo/0/Photo/0" index="9" name=""/>
+        <alias field="properties/Attributes/Photo/1/Photo/0" index="10" name=""/>
+        <alias field="properties/Attributes/AdmArea" index="11" name=""/>
+        <alias field="properties/Attributes/District" index="12" name=""/>
+        <alias field="properties/Attributes/Location" index="13" name=""/>
+        <alias field="properties/Attributes/DogParkArea" index="14" name=""/>
+        <alias field="properties/Attributes/Elements/0" index="15" name=""/>
+        <alias field="properties/Attributes/Elements/1" index="16" name=""/>
+        <alias field="properties/Attributes/Elements/2" index="17" name=""/>
+        <alias field="properties/Attributes/Elements/3" index="18" name=""/>
+        <alias field="properties/Attributes/Elements/4" index="19" name=""/>
+        <alias field="properties/Attributes/Elements/5" index="20" name=""/>
+        <alias field="properties/Attributes/Elements/6" index="21" name=""/>
+        <alias field="properties/Attributes/Elements/7" index="22" name=""/>
+        <alias field="properties/Attributes/Elements/8" index="23" name=""/>
+        <alias field="properties/Attributes/Elements/9" index="24" name=""/>
+        <alias field="properties/Attributes/Lighting" index="25" name=""/>
+        <alias field="properties/Attributes/Fencing" index="26" name=""/>
+        <alias field="properties/Attributes/WorkingHours/0/DayOfWeek" index="27" name=""/>
+        <alias field="properties/Attributes/WorkingHours/0/Hours" index="28" name=""/>
+        <alias field="properties/Attributes/WorkingHours/1/DayOfWeek" index="29" name=""/>
+        <alias field="properties/Attributes/WorkingHours/1/Hours" index="30" name=""/>
+        <alias field="properties/Attributes/WorkingHours/2/DayOfWeek" index="31" name=""/>
+        <alias field="properties/Attributes/WorkingHours/2/Hours" index="32" name=""/>
+        <alias field="properties/Attributes/WorkingHours/3/DayOfWeek" index="33" name=""/>
+        <alias field="properties/Attributes/WorkingHours/3/Hours" index="34" name=""/>
+        <alias field="properties/Attributes/WorkingHours/4/DayOfWeek" index="35" name=""/>
+        <alias field="properties/Attributes/WorkingHours/4/Hours" index="36" name=""/>
+        <alias field="properties/Attributes/WorkingHours/5/DayOfWeek" index="37" name=""/>
+        <alias field="properties/Attributes/WorkingHours/5/Hours" index="38" name=""/>
+        <alias field="properties/Attributes/WorkingHours/6/DayOfWeek" index="39" name=""/>
+        <alias field="properties/Attributes/WorkingHours/6/Hours" index="40" name=""/>
+        <alias field="type" index="41" name=""/>
+        <alias field="properties/Attributes/Photo/2/Photo/0" index="42" name=""/>
+        <alias field="properties/Attributes/Photo/3/Photo/0" index="43" name=""/>
+        <alias field="properties/Attributes/Elements/10" index="44" name=""/>
+        <alias field="properties/Attributes/Elements/11" index="45" name=""/>
+        <alias field="properties/Attributes/Elements/12" index="46" name=""/>
+        <alias field="properties/Attributes/Elements/13" index="47" name=""/>
+        <alias field="properties/Attributes/Elements/14" index="48" name=""/>
+        <alias field="properties/Attributes/Elements/15" index="49" name=""/>
+        <alias field="properties/Attributes/Elements/16" index="50" name=""/>
+        <alias field="properties/Attributes/Elements/17" index="51" name=""/>
+        <alias field="properties/Attributes/Elements/18" index="52" name=""/>
+        <alias field="properties/Attributes/Elements/19" index="53" name=""/>
+        <alias field="properties/Attributes/Photo/4/Photo/0" index="54" name=""/>
+        <alias field="properties/Attributes/Photo/5/Photo/0" index="55" name=""/>
+        <alias field="properties/Attributes/Photo/6/Photo/0" index="56" name=""/>
+        <alias field="properties/Attributes/Photo/7/Photo/0" index="57" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="0">
+        <actionsetting showInAttributeTable="1" action="" icon="" capture="0" type="0" name="" shortTitle=""/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="geometry/coordinates/0" expression=""/>
+        <default field="geometry/coordinates/1" expression=""/>
+        <default field="geometry/type" expression=""/>
+        <default field="properties/DatasetId" expression=""/>
+        <default field="properties/VersionNumber" expression=""/>
+        <default field="properties/ReleaseNumber" expression=""/>
+        <default field="properties/RowId" expression=""/>
+        <default field="properties/Attributes/DepartamentalAffiliation" expression=""/>
+        <default field="properties/Attributes/global_id" expression=""/>
+        <default field="properties/Attributes/Photo/0/Photo/0" expression=""/>
+        <default field="properties/Attributes/Photo/1/Photo/0" expression=""/>
+        <default field="properties/Attributes/AdmArea" expression=""/>
+        <default field="properties/Attributes/District" expression=""/>
+        <default field="properties/Attributes/Location" expression=""/>
+        <default field="properties/Attributes/DogParkArea" expression=""/>
+        <default field="properties/Attributes/Elements/0" expression=""/>
+        <default field="properties/Attributes/Elements/1" expression=""/>
+        <default field="properties/Attributes/Elements/2" expression=""/>
+        <default field="properties/Attributes/Elements/3" expression=""/>
+        <default field="properties/Attributes/Elements/4" expression=""/>
+        <default field="properties/Attributes/Elements/5" expression=""/>
+        <default field="properties/Attributes/Elements/6" expression=""/>
+        <default field="properties/Attributes/Elements/7" expression=""/>
+        <default field="properties/Attributes/Elements/8" expression=""/>
+        <default field="properties/Attributes/Elements/9" expression=""/>
+        <default field="properties/Attributes/Lighting" expression=""/>
+        <default field="properties/Attributes/Fencing" expression=""/>
+        <default field="properties/Attributes/WorkingHours/0/DayOfWeek" expression=""/>
+        <default field="properties/Attributes/WorkingHours/0/Hours" expression=""/>
+        <default field="properties/Attributes/WorkingHours/1/DayOfWeek" expression=""/>
+        <default field="properties/Attributes/WorkingHours/1/Hours" expression=""/>
+        <default field="properties/Attributes/WorkingHours/2/DayOfWeek" expression=""/>
+        <default field="properties/Attributes/WorkingHours/2/Hours" expression=""/>
+        <default field="properties/Attributes/WorkingHours/3/DayOfWeek" expression=""/>
+        <default field="properties/Attributes/WorkingHours/3/Hours" expression=""/>
+        <default field="properties/Attributes/WorkingHours/4/DayOfWeek" expression=""/>
+        <default field="properties/Attributes/WorkingHours/4/Hours" expression=""/>
+        <default field="properties/Attributes/WorkingHours/5/DayOfWeek" expression=""/>
+        <default field="properties/Attributes/WorkingHours/5/Hours" expression=""/>
+        <default field="properties/Attributes/WorkingHours/6/DayOfWeek" expression=""/>
+        <default field="properties/Attributes/WorkingHours/6/Hours" expression=""/>
+        <default field="type" expression=""/>
+        <default field="properties/Attributes/Photo/2/Photo/0" expression=""/>
+        <default field="properties/Attributes/Photo/3/Photo/0" expression=""/>
+        <default field="properties/Attributes/Elements/10" expression=""/>
+        <default field="properties/Attributes/Elements/11" expression=""/>
+        <default field="properties/Attributes/Elements/12" expression=""/>
+        <default field="properties/Attributes/Elements/13" expression=""/>
+        <default field="properties/Attributes/Elements/14" expression=""/>
+        <default field="properties/Attributes/Elements/15" expression=""/>
+        <default field="properties/Attributes/Elements/16" expression=""/>
+        <default field="properties/Attributes/Elements/17" expression=""/>
+        <default field="properties/Attributes/Elements/18" expression=""/>
+        <default field="properties/Attributes/Elements/19" expression=""/>
+        <default field="properties/Attributes/Photo/4/Photo/0" expression=""/>
+        <default field="properties/Attributes/Photo/5/Photo/0" expression=""/>
+        <default field="properties/Attributes/Photo/6/Photo/0" expression=""/>
+        <default field="properties/Attributes/Photo/7/Photo/0" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="0" simplifyDrawingHints="0" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>37.15502099999999785</xmin>
+        <ymin>55.48775899999999695</ymin>
+        <xmax>37.92681699999999978</xmax>
+        <ymax>56.00849000000000188</ymax>
+      </extent>
+      <id>sports_4742938b_c918_4576_a04e_f532bdee4305</id>
+      <datasource>D:\MEGA\Практика\Рейтинг объектов недвижимости\Sport_leisure\source_datamos\sports.dbf</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>sports</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="По умолчанию">
+        <map-layer-style name="По умолчанию"/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FullName">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="global_id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ShortName">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="RegisterNu">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LegalAddre">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="country">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="city">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="street">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="house">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ChiefPosit">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ChiefName">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="WebSite">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Email">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="INN">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="OGRN">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="settlement">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="building_n">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="geocoded">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="49,203,230,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>FullName</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Подпись"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="ID" index="0" name=""/>
+        <alias field="FullName" index="1" name=""/>
+        <alias field="global_id" index="2" name=""/>
+        <alias field="ShortName" index="3" name=""/>
+        <alias field="RegisterNu" index="4" name=""/>
+        <alias field="LegalAddre" index="5" name=""/>
+        <alias field="country" index="6" name=""/>
+        <alias field="city" index="7" name=""/>
+        <alias field="street" index="8" name=""/>
+        <alias field="house" index="9" name=""/>
+        <alias field="ChiefPosit" index="10" name=""/>
+        <alias field="ChiefName" index="11" name=""/>
+        <alias field="WebSite" index="12" name=""/>
+        <alias field="Email" index="13" name=""/>
+        <alias field="INN" index="14" name=""/>
+        <alias field="OGRN" index="15" name=""/>
+        <alias field="settlement" index="16" name=""/>
+        <alias field="building_n" index="17" name=""/>
+        <alias field="geocoded" index="18" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="0">
+        <actionsetting showInAttributeTable="1" action="" icon="" capture="0" type="0" name="" shortTitle=""/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="ID" expression=""/>
+        <default field="FullName" expression=""/>
+        <default field="global_id" expression=""/>
+        <default field="ShortName" expression=""/>
+        <default field="RegisterNu" expression=""/>
+        <default field="LegalAddre" expression=""/>
+        <default field="country" expression=""/>
+        <default field="city" expression=""/>
+        <default field="street" expression=""/>
+        <default field="house" expression=""/>
+        <default field="ChiefPosit" expression=""/>
+        <default field="ChiefName" expression=""/>
+        <default field="WebSite" expression=""/>
+        <default field="Email" expression=""/>
+        <default field="INN" expression=""/>
+        <default field="OGRN" expression=""/>
+        <default field="settlement" expression=""/>
+        <default field="building_n" expression=""/>
+        <default field="geocoded" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <Paths>
+      <Absolute type="bool">true</Absolute>
+    </Paths>
+    <WFSLayers type="QStringList"/>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <WFSTLayers>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+      <Delete type="QStringList"/>
+    </WFSTLayers>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WCSLayers type="QStringList"/>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <DefaultStyles>
+      <Fill type="QString"></Fill>
+      <Line type="QString"></Line>
+      <Opacity type="double">1</Opacity>
+      <Marker type="QString"></Marker>
+      <RandomColors type="bool">true</RandomColors>
+      <ColorRamp type="QString"></ColorRamp>
+    </DefaultStyles>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSUrl type="QString"></WMSUrl>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+  </properties>
+  <visibility-presets/>
+</qgis>
